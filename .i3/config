@@ -1,0 +1,649 @@
+# ============= BASIC KEYBINDINGS =============
+
+# set the modifier key
+    set $mod Mod4
+
+# reload the configuration file
+    bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+    bindsym $mod+Shift+r restart
+
+# start a terminal
+    bindsym $mod+Return exec i3-sensible-terminal
+
+#i3lock
+    bindsym $mod+Shift+x exec i3lock --color "$inactive-bg-color"
+
+# kill focused window
+    bindsym $mod+Shift+q kill
+
+# change focus
+    bindsym $mod+h focus left
+    bindsym $mod+j focus down
+    bindsym $mod+k focus up
+    bindsym $mod+l focus right
+
+# alternatively, you can use the cursor keys:
+    bindsym $mod+Left focus left
+    bindsym $mod+Down focus down
+    bindsym $mod+Up focus up
+    bindsym $mod+Right focus right
+
+# move focused window
+    bindsym $mod+Shift+h move left
+    bindsym $mod+Shift+j move down
+    bindsym $mod+Shift+k move up
+    bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+    bindsym $mod+Shift+Left move left
+    bindsym $mod+Shift+Down move down
+    bindsym $mod+Shift+Up move up
+    bindsym $mod+Shift+Right move right
+
+# switch to workspace
+    bindsym $mod+1 workspace 1
+    bindsym $mod+2 workspace 2
+    bindsym $mod+3 workspace 3
+    bindsym $mod+4 workspace 4
+    bindsym $mod+5 workspace 5
+    bindsym $mod+6 workspace 6
+    bindsym $mod+7 workspace 7
+    bindsym $mod+8 workspace 8
+    bindsym $mod+9 workspace 9
+    bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+    bindsym $mod+Shift+1 move container to workspace 1
+    bindsym $mod+Shift+2 move container to workspace 2
+    bindsym $mod+Shift+3 move container to workspace 3
+    bindsym $mod+Shift+4 move container to workspace 4
+    bindsym $mod+Shift+5 move container to workspace 5
+    bindsym $mod+Shift+6 move container to workspace 6
+    bindsym $mod+Shift+7 move container to workspace 7
+    bindsym $mod+Shift+8 move container to workspace 8
+    bindsym $mod+Shift+9 move container to workspace 9
+    bindsym $mod+Shift+0 move container to workspace 10
+
+# change focus across monitors
+    bindsym $mod+y focus output right
+    #bindsym $mod+u focus output down
+
+# move containers across monitors
+    bindsym $mod+Shift+y move container output right, focus output right
+    bindsym $mod+Shift+u move container output down, focus output down
+
+#move focused workspace to output
+    bindsym $mod+Shift+greater move workspace to output right, focus output right
+    #bindsym $mod+Shift+less move workspace to output left 
+
+# layout orientation
+#layout toggle [splitv|splith]
+
+# toggle split layout
+    bindsym $mod+t split toggle 
+
+# split in horizontal orientation
+    bindsym $mod+g split h
+
+# split in vertical orientation
+    bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+    bindsym $mod+f fullscreen
+
+# change container layout (stacked, tabbed, toggle split)
+    bindsym $mod+Shift+s layout stacking
+    bindsym $mod+Shift+w layout tabbed
+    bindsym $mod+e layout toggle split
+
+# start dmenu (a program launcher)
+    bindsym $mod+d exec dmenu_run 
+#bindsym $mod+d exec dmenu_run -fn "-misc-fixed-medium-r-normal--20" -l 10 -nb "#2f343f"
+#bindsym $mod+d exec .i3/rofi.sh
+
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+# start synapse 
+    bindsym $mod+s exec synapse
+
+# toggle tiling / floating
+    bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+#bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+    bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+#move left or right through workspaces
+    bindsym Control+Mod1+l workspace next
+    bindsym Control+Mod1+h workspace prev
+
+# ============= i3-SETTINGS =============
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below. ISO 10646 = Unicode
+# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+    font pango:System San Francisco Display 9
+# font above is very space-efficient, that is, it looks good, sharp and
+# clear in small sizes. However, if you need a lot of unicode glyphs or
+# right-to-left text rendering, you should instead use pango for rendering and
+# chose a FreeType font, such as:
+# font pango:DejaVu Sans Mono 10
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+    floating_modifier $mod
+
+#default workspace layout
+    workspace_layout default
+
+# switch between two last workspaces
+    workspace_auto_back_and_forth yes
+
+# workspace 1,2 per default on output 1
+    workspace 5 output VGA1
+    workspace 3 output VGA1
+    workspace 7 output VGA1
+    workspace 9 output VGA1
+    workspace 10 output VGA1
+
+    workspace 1 output HDMI2
+    workspace 2 output HDMI2
+    workspace 4 output HDMI2
+
+#    workspace 5 output LVDS1
+#    workspace 8 output LVDS1
+#    workspace 9 output LVDS1
+#    workspace 10 output LVDS1
+
+# Sets colors for i3 messages and i3bar
+    set $bg-color 	     #0E5D78
+    set $bar-color		 #2f343f
+    set $inactive-bg-color   #2f343f
+    set $text-color          #f3f4f5
+    set $inactive-text-color #676E7D
+    set $urgent-bg-color     #E53935
+
+#   window colors           border              background         text                 indicator
+    client.focused          $bg-color           $bg-color          $text-color          #ffffff
+    client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #ffffff
+    client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #ffffff
+    client.urgent $urgent-bg-color $urgent-bg-color $text-color #ffffff
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+#bar {
+#        #mode hide
+#        status_command i3blocks -c .i3/i3blocks.conf
+#	colors {
+#		background $inactive-bg-color
+#	    	separator #757575
+#		#                  border             background         text
+#		focused_workspace  $bg-color          $bg-color          $text-color
+#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+#		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+#	}
+#}
+
+# ============= CUSTOM BEHAVIOUR =============
+
+# focus workspaces 2 and 3
+    bindsym $mod+m exec i3-msg "workspace 3" && i3-msg "workspace 2" && i3-msg "workspace 2" 
+
+# switch between fullscreen mode and windowed mode
+    bindsym $mod+n fullscreen disable; floating enable; resize set 540 300; sticky enable; move window to position 810 440
+    bindsym $mod+Shift+n floating disable; sticky disable
+
+# switch through workspaces
+    bindsym $mod+Tab workspace next
+    bindsym $mod+Shift+Tab workspace prev
+
+#bindsym $mod+Shift+b exec --no-startup-id ~/bin/ddspawn URxvt
+    bindsym $mod+Shift+b exec --no-startup-id urxvt, exec gnome-control-center bluetooth
+    bindsym $mod+Shift+Return --no-startup-id urxvt
+
+# Docking and undocking script
+    bindsym $mod+Shift+d exec ~/bin/dock.sh, mode "default"
+
+#Start master thesis workflow
+    #bindsym $mod+Shift+w exec ~/bin/workflow.sh, mode "default"
+
+#Start desktop monitor layout
+    bindsym $mod+Shift+m exec ~/bin/setMonitor.sh, mode "default"
+
+#Switch sound output 
+    bindsym $mod+F1 exec ~/bin/soundoutputswitcher.sh
+
+# rebinds usb keyboard (useful after suspend)
+    bindsym $mod+space exec ~/bin/customkeymaps
+
+# rebinds usb keyboard (useful after suspend)
+#    bindsym $mod+Shift+t exec sudo ~/bin/usbkeyboardreset
+
+# ============= GAPS =============
+
+##hide_edge_borders both
+#gaps inner 7 
+#gaps outer 3
+
+##Change size of outer gaps
+#bindsym $mod+z  gaps outer current minus 5
+#bindsym $mod+Shift+z gaps outer current plus 5
+
+## Activate smart borders (only when there are effectively no gaps)
+#smart_borders no_gaps
+
+#set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
+#set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_horiz Horizontal Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_verti Vertical Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_top Top Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_right Right Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_bottom Bottom Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_left Left Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#bindsym $mod+Shift+g mode "$mode_gaps"
+
+#mode "$mode_gaps" {
+#        bindsym o      mode "$mode_gaps_outer"
+#        bindsym i      mode "$mode_gaps_inner"
+#        bindsym h      mode "$mode_gaps_horiz"
+#        bindsym v      mode "$mode_gaps_verti"
+#        bindsym t      mode "$mode_gaps_top"
+#        bindsym r      mode "$mode_gaps_right"
+#        bindsym b      mode "$mode_gaps_bottom"
+#        bindsym l      mode "$mode_gaps_left"
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+
+#mode "$mode_gaps_outer" {
+#        bindsym plus  gaps outer current plus 5
+#        bindsym minus gaps outer current minus 5
+#        bindsym 0     gaps outer current set 0
+
+#        bindsym Shift+plus  gaps outer all plus 5
+#        bindsym Shift+minus gaps outer all minus 5
+#        bindsym Shift+0     gaps outer all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_inner" {
+#        bindsym plus  gaps inner current plus 5
+#        bindsym minus gaps inner current minus 5
+#        bindsym 0     gaps inner current set 0
+
+#        bindsym Shift+plus  gaps inner all plus 5
+#        bindsym Shift+minus gaps inner all minus 5
+#        bindsym Shift+0     gaps inner all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_horiz" {
+#        bindsym plus  gaps horizontal current plus 5
+#        bindsym minus gaps horizontal current minus 5
+#        bindsym 0     gaps horizontal current set 0
+
+#        bindsym Shift+plus  gaps horizontal all plus 5
+#        bindsym Shift+minus gaps horizontal all minus 5
+#        bindsym Shift+0     gaps horizontal all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_verti" {
+#        bindsym plus  gaps vertical current plus 5
+#        bindsym minus gaps vertical current minus 5
+#        bindsym 0     gaps vertical current set 0
+
+#        bindsym Shift+plus  gaps vertical all plus 5
+#        bindsym Shift+minus gaps vertical all minus 5
+#        bindsym Shift+0     gaps vertical all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_top" {
+#        bindsym plus  gaps top current plus 5
+#        bindsym minus gaps top current minus 5
+#        bindsym 0     gaps top current set 0
+
+#        bindsym Shift+plus  gaps top all plus 5
+#        bindsym Shift+minus gaps top all minus 5
+#        bindsym Shift+0     gaps top all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_right" {
+#        bindsym plus  gaps right current plus 5
+#        bindsym minus gaps right current minus 5
+#        bindsym 0     gaps right current set 0
+
+#        bindsym Shift+plus  gaps right all plus 5
+#        bindsym Shift+minus gaps right all minus 5
+#        bindsym Shift+0     gaps right all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_bottom" {
+#        bindsym plus  gaps bottom current plus 5
+#        bindsym minus gaps bottom current minus 5
+#        bindsym 0     gaps bottom current set 0
+
+#bindsym Shift+plus  gaps bottom all plus 5
+#        bindsym Shift+minus gaps bottom all minus 5
+#        bindsym Shift+0     gaps bottom all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_left" {
+#        bindsym plus  gaps left current plus 5
+#        bindsym minus gaps left current minus 5
+#        bindsym 0     gaps left current set 0
+
+#        bindsym Shift+plus  gaps left all plus 5
+#        bindsym Shift+minus gaps left all minus 5
+#        bindsym Shift+0     gaps left all set 0
+
+#        bindsym Return mode "$mode_gaps"
+#        bindsym Escape mode "default"
+#}
+
+# ============= CONTAINER SETTINGS =============
+
+#Disable title bar in all windows
+    for_window [class="^.*"] border pixel 2
+
+#force programs on workspace
+    assign [class="Firefox"] 1
+    assign [class="Eclipse"] 2
+    assign [class="Evolution"] 5
+    assign [class="Mailspring"] 5
+    assign [class="Clementine"] 6
+    assign [class="Google-chrome"] 1
+    #assign [class="Zathura"] 3
+    assign [class="Spotify"] 6
+    assign [class="Simplenote"] 7
+    assign [class="Rhythmbox"] 8
+    assign [class="Franz"] 9
+    assign [class="Rambox"] 9
+    assign [class="Pale moon"] 9
+    assign [class="Telegram"] 10
+    assign [class="qpdfview"] 4
+
+#move settings dialog to bottom right corner
+    for_window [class="Gnome-control-center"] move position 630px 270px
+
+#xev event tester open as float on screen corner
+    for_window [title="Event Tester"] floating enable, resize set 108 108, move position mouse
+
+# Dropdown windows
+    for_window [class="URxvt"] floating enable
+    for_window [class="URxvt"] move scratchpad 
+    #for_window [class="URxvt"] sticky enable
+    for_window [class="URxvt"] scratchpad show
+    for_window [class="URxvt"] resize set 555 300
+    for_window [class="URxvt"] move to position 55 350
+
+# focus browser
+    bindsym $mod+i [class="Firefox"] focus
+
+# ============= CUSTOM MODES =============
+
+#Quick settings
+set $gnome_settings Settings: (b) bluetooth, (o) sound, (k) keyboard, (Space) all settings
+mode "$gnome_settings" {
+    bindsym s exec gnome-control-center, mode "default"
+    bindsym space exec gnome-control-center, mode "default"
+    bindsym Return exec gnome-control-center, mode "default"
+    bindsym b exec gnome-control-center bluetooth, mode "default"
+    bindsym o exec gnome-control-center sound, mode "default"
+    bindsym p exec gnome-control-center printers, mode "default"
+    bindsym w exec gnome-control-center network, mode "default"
+    bindsym n exec gnome-control-center network, mode "default"
+    bindsym m exec gnome-control-center mouse, mode "default"
+    bindsym d exec gnome-control-center info, mode "default"
+    bindsym i exec gnome-control-center info, mode "default"
+    bindsym k exec gnome-control-center keyboard, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Escape mode "default"
+}
+
+#Common used vim files 
+set $vimSpeedDial VIM: (a) bash_aliases, (i) i3config, (v) vimrc, (z) zshrc, (Space) emptyBuffer
+mode "$vimSpeedDial" {
+    bindsym a exec gnome-terminal -e 'vim --servername VIM /home/alvaro-uni/.bash_aliases', mode "default"
+    bindsym i exec gnome-terminal -e 'vim --servername VIM /home/alvaro-uni/.i3/config', mode "default"
+    bindsym t exec gnome-terminal -e 'vim --servername VIM /home/alvaro-uni/.tmux.conf', mode "default"
+    bindsym v exec gnome-terminal -e 'vim --servername VIM /home/alvaro-uni/.vimrc', mode "default"
+    bindsym z exec gnome-terminal -e 'vim --servername VIM /home/alvaro-uni/.zshrc', mode "default"
+    bindsym space exec gnome-terminal -e 'vim --servername VIM', mode "default"
+    bindsym Return exec gnome-terminal -e 'vim --servername VIM', mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Escape mode "default"
+}
+
+#Common used directories
+set $nautilusSpeedDial Dir: (d) dropbox, (v) cv, (c) c++, (w) downloads, (h) home, (Space) home
+mode "$nautilusSpeedDial" {
+    bindsym d exec nautilus /home/alvaro-uni/Dropbox, mode "default"
+    bindsym l exec nautilus /home/alvaro-uni/Dropbox/c++/literatur/OOPFSC_Slides, mode "default"
+    bindsym c exec nautilus /home/alvaro-uni/Dropbox/c++/, mode "default"
+    bindsym w exec nautilus /home/alvaro-uni/Downloads, mode "default"
+    bindsym h exec nautilus /home/alvaro-uni/, mode "default"
+    bindsym v exec nautilus /home/alvaro-uni/Dropbox/CV, mode "default"
+    bindsym space exec nautilus ~/, mode "default"
+    # bindsym Return exec nautilus -e 'vim --servername VIM', mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Escape mode "default"
+}
+
+#Quick Cprograms
+set $Cprograms C-programs: (a) calendar, (h) chrome,  (l) clementine, (c) calculator
+mode "$Cprograms" {
+    bindsym a exec gnome-calculator, mode "default"
+    #bindsym a [class="Franz"] focus, mode "default"
+    bindsym h exec google-chrome, mode "default"
+    bindsym l exec clementine, mode "default"
+    bindsym c exec gnome-calculator, mode "default"
+    bindsym space exec gnome-calculator, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+#Speed dial for common programs
+set $quick_shortcuts Shortcuts: (f) firefox, (n) nautilus, (r) ranger, (m) masterarbeit, (t) telegram, (e) evolution, (s) settings
+mode "$quick_shortcuts" {
+    bindsym a exec arandr, mode "default"
+    bindsym f exec firefox, mode "default"
+    #bindsym f exec google-chrome, mode "default"
+    bindsym n mode "$nautilusSpeedDial"
+    bindsym l exec ~/bin/toggleFlux.sh, mode "default"
+    bindsym Shift+f exec gnome-terminal -e 'fzf', mode "default"
+    bindsym b exec gnome-control-center bluetooth, mode "default"
+    bindsym r exec gnome-terminal -e 'ranger', mode "default"
+    bindsym v mode "$vimSpeedDial"
+    bindsym h exec gnome-terminal -e 'htop', mode "default"
+    bindsym w exec ~/bin/workflow.sh, mode "default"
+    bindsym s mode "$gnome_settings"
+    #bindsym s exec gnome-control-center, mode "default"
+    bindsym c mode "$Cprograms"
+    #bindsym c exec gnome-calculator, mode "default"
+    bindsym Shift+c exec gnome-calendar, mode "default"
+    bindsym k exec kodi, mode "default"
+    bindsym x exec xournal, mode "default"
+    bindsym p exec recoll, mode "default"
+    bindsym q exec qpdfview, mode "default"
+    bindsym m exec gnome-terminal -e 'vim --servername cv /home/alvaro-uni/Dropbox/CV/application/cv/cv.tex', mode "default"
+    bindsym Shift+m exec gnome-terminal -e 'vim --servername cv /home/alvaro-uni/Dropbox/CV/application/letter/letter.tex', mode "default"
+    bindsym z exec zathura, mode "default"
+    bindsym d exec .i3/rofi.sh, mode "default"
+    #bindsym t exec tomate-gtk, mode "default"
+    bindsym t mode "$keymaps"
+ 
+    bindsym 0 exec telegram, mode "default"
+    #bindsym 9 exec palemoon, mode "default"
+    bindsym 9 exec franz, mode "default"
+    bindsym 8 exec rhythmbox, mode "default"
+    bindsym 7 exec simplenote, mode "default"
+    #bindsym 5 exec evolution, mode "default"
+    bindsym 5 exec mailspring, mode "default"
+    bindsym 4 exec qpdfview, mode "default"
+    bindsym 1 exec firefox, mode "default"
+    #bindsym 6 exec gnome-terminal -e 'cmus', mode "default"
+    bindsym 6 exec i3-msg "workspace 6" && clementine, mode "default"
+    #bindsym 6 exec i3-msg "workspace 6" && spotify, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+w mode "$quick_shortcuts"
+
+# Polybar layout mode
+set $bar_layout Shortcuts: (h) home, (u) uni, (l) laptop
+mode "$bar_layout" {
+    bindsym h exec bash -x ~/.config/polybar/launchhome.sh, mode "default"
+    bindsym u exec bash -x ~/.config/polybar/launchuni.sh, mode "default"
+    bindsym l exec bash -x ~/.config/polybar/launchlaptop.sh, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Shift+p mode "$bar_layout"
+
+# reset keyboard and reload custom keymaps
+set $keymaps Keyboard maps: (t) reset usb-keyboard, (m) set mouse speed, (c) reload custom keymaps (also possible through mod+Space)
+mode "$keymaps"{
+    bindsym c exec ~/bin/customkeymaps, mode "default"
+    #bindsym m exec ~/bin/mousespeed, mode "default"
+    bindsym m exec xinput --set-prop "17" "Device Accel Constant Deceleration" 0.3, mode "default"
+    bindsym t exec sudo ~/bin/usbkeyboardreset, mode "default"
+    bindsym u exec sudo ~/bin/usbkeyboardreset, mode "default"
+            
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Shift+t mode "$keymaps" 
+
+# monitor layout mode
+set $monitor_layout Shortcuts: (h) home, (u) uni, (l) laptop
+mode "$monitor_layout" {
+    bindsym h exec i3-msg "exec ~/setMonitor.sh", mode "default"
+    #bindsym h exec bash -x ~/.i3/scripts/home.sh, mode "default"
+    bindsym u exec bash -x ~/.i3/scripts/uni.sh, mode "default"
+    bindsym l exec bash -x ~/.i3/scripts/laptop.sh, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+#bindsym $mod+Shift+m mode "$monitor_layout" #currently used, see setMonitor.sh
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+    # These bindings trigger as soon as you enter the resize mode
+
+    # Pressing left will shrink the window’s width.
+    # Pressing right will grow the window’s width.
+    # Pressing up will shrink the window’s height.
+    # Pressing down will grow the window’s height.
+    bindsym l resize shrink width 10 px or 10 ppt
+    bindsym k resize grow height 10 px or 10 ppt
+    bindsym j resize shrink height 10 px or 10 ppt
+    bindsym h resize grow width 10 px or 10 ppt
+
+    # same bindings, but for the arrow keys
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+#Logout, Restart, Shutdown menu
+set $Locker i3lock --color "#2f343f" && sleep 1
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id $Locker && sudo systemctl hibernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id sudo shutdown -h now, mode "default"  
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Shift+e mode "$mode_system"
+
+# ============= MEDIA KEYS =============
+
+# Pulse Audio controls
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume `pactl list sinks short |grep RUNN | awk '{print$1}'` +5%
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume `pactl list sinks short |grep RUNN | awk '{print$1}'` -5% 
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute `pactl list sinks short |grep RUNN | awk '{print$1}'` toggle
+
+# Amixer audio controls
+    bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q sset 'Master' 5%+ 
+    bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q sset 'Master' 5%- 
+    bindsym XF86AudioMute exec --no-startup-id amixer -q sset Master toggle
+
+# Screen brightness controls
+    bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+    bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+    bindsym XF86TaskPane exec sleep 1 && xset dpms force off
+
+# Touchpad controls
+    bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+
+# Media player controls
+    bindsym XF86AudioPlay exec playerctl play
+    bindsym XF86AudioPause exec playerctl pause
+    bindsym XF86AudioNext exec playerctl next
+    bindsym XF86AudioPrev exec playerctl previous
+
+# Print/Screenshot key
+    bindsym Print exec gnome-screenshot -a
+
+# ============= Startup programs =============
+
+exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc1
+#exec --no-startup-id nc-indicators 
+exec_always compton -f --vsync opengl
+exec --no-startup-id synapse -s
+exec --no-startup-id easystroke
+exec_always --no-startup-id feh --bg-scale Pictures/wallpaper4.jpg
+exec --no-startup-id nm-applet 
+#exec evolution
+#exec simplenote
+exec_always gnome-settings-daemon
+exec pasystray
+exec dropbox start
+#exec_always setxkbmap -option "caps:escape, compose:ralt, terminate:ctrl_alt_bksp"
+exec --no-startup-id ~/bin/customkeymaps
