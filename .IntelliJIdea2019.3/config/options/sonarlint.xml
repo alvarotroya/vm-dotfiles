@@ -1,0 +1,20 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="excludedRules">
+      <set>
+        <option value="squid:S1220" />
+      </set>
+    </option>
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sf-sonar.devprod.sap.corp" />
+          <token>df9adf9ddf9cdfcbdf9edf9bdfc9dfc9dfccdf92dfcedfcfdfcfdf9adfcedfccdf9cdf9adf9ddf9edfccdf92df9fdf9edf93df98df9bdf98df9edf9bdf9adf9bdf9ddfcfdfcfdf98df9bdf9bdf9adf9d</token>
+          <option name="name" value="SF Sonar" />
+          <organizationKey>default-organization</organizationKey>
+          <enableNotifications>true</enableNotifications>
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>

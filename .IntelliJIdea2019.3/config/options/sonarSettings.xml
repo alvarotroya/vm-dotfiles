@@ -1,0 +1,15 @@
+<application>
+  <component name="sonarServers">
+    <option name="beans">
+      <list>
+        <SonarServerConfig>
+          <option name="anonymous" value="true" />
+          <option name="hostUrl" value="https://sf-sonar.devprod.sap.corp/dashboard?id=au-timemanagement" />
+          <option name="name" value="au-timemanagement" />
+          <option name="organization" value="" />
+          <option name="user" value="" />
+        </SonarServerConfig>
+      </list>
+    </option>
+  </component>
+</application>

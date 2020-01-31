@@ -1,0 +1,1000 @@
+bash /home/i522666/bin/start-server 
+clear
+./bin/start-server 
+notify-send "hello"
+xfce4-notifyd-config 
+xev
+xe
+xev
+xev | grep -i button
+./bin/start-server 
+cdd
+cdc
+ls
+laer
+clear
+clc
+ls
+clc
+ls
+cd build-system/
+git pull
+clc
+cd ..
+clc
+cdd
+clc
+clc 
+git clone https://github.wdf.sap.corp/bizx/au-timemanagement
+clc
+xev
+setxkbmap --help
+setxkbmap -h
+showconsolefont 
+showconsolefont `
+setxkbmap de
+showconsolefont `
+nano /etc/default/keyboard 
+env
+setxkbmap us
+sudo dpkg -i Downloads/wkhtmltox_0.12.5-1.xenial_amd64.deb 
+sudo apt install xfonts-75dpi
+sudo dpkg -i Downloads/wkhtmltox_0.12.5-1.xenial_amd64.deb 
+wkhtmltopdf file:///home/i522666/Time%20Management%20ERD%20b1905.svg
+wkhtmltopdf file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf --page-width 297 --page-length 420 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 --no-collate file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+wkhtmltopdf -h
+wkhtmltopdf -s A3 -O Landscape file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+wkhtmltopdf -s A2 -O Landscape file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+wkhtmltopdf -s A2 -O Portrait file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+git config --list
+cdd
+cdc
+cdd
+vim .git/config 
+cd
+ls
+sudo apt install seahorse
+vim .gitconfig 
+cdc
+git pull
+cd
+devchef intellij
+tar -xzf Downloads/jetbrains-toolbox-1.16.6016.tar.gz 
+ls
+cd jetbrains-toolbox-1.16.6016/
+ls
+jetbrains-toolbox 
+sudo su
+locate idea
+jetbrains-toolbox-1.16.6016/jetbrains-toolbox 
+locate idea
+sudo ln -s .local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh /usr/bin/
+cdc
+idea.sh
+idea
+/usr/bin/idea.sh
+bash /usr/bin/idea.sh
+sudo rm /usr/bin/idea.sh 
+locate eclipse
+locate eclipse | grep usr
+locate eclipse | grep usr/bin
+clear
+.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh 
+ln -s .local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh idea
+ls
+idea
+ls .bash
+ls .bash*
+vim .bashrc
+sudo ln -s idea /usr/bin/
+cdc
+git checkout feature/TIME10575
+git pull
+git checkout feature/TIM10575
+git checkout feature/TIM-10575
+git pull
+cdd
+cdc
+cdt
+cda
+cdt
+gradlew deploy
+gradlew --stacktrace deploy 
+startserver
+startserver 
+cdt
+..
+mkdir nproxy_rules
+vim nproxy_rules/nproxy_rule_absence.js
+cdd
+cda
+git pull
+docker-compose up nproxy
+cdt
+gradlew deploy
+cdd
+startserver 
+cdt
+cda
+git stash
+git pull
+cdt
+gradlew deploy
+docker-compose up nproxy
+vim bin/customkeymaps 
+ls
+export DBTYPE=hana
+echo DBTYPE
+echo $DBTYPE
+startserver 
+export DBTYPE=hana
+echo $DBTYPE
+DBTYPE=hana
+echo $DBTYPE
+vim .env 
+startserver 
+DBTYPE=hana_wdf
+startserver 
+DBTYPE=hana_wdf
+startserver 
+r
+clear
+gradlew deploy
+cdc
+cdd
+ls .
+ls .*
+vim nproxy_rules/nproxy_rule_absence.js
+cdt
+ls
+vim nproxy_rules/nproxy_rule_absence.js
+cd nproxy_rules/
+ls
+locate nproxy_
+locate nproxy_*
+cd /
+locate nproxy_*
+locate nproxy*
+locate nproxy
+q
+cdd
+ls
+jcdt
+ls
+cdt
+ls
+ls nproxy_rules/
+clear
+ls
+cdt
+cda
+git pull
+git commit -m "Controller PayoutDashboard"
+git push
+vim nproxy_rules/nproxy_rule_absence.js
+ils
+ls
+..
+cdd
+ls
+cd ./
+cd .
+cd /
+locate nproxy_absence
+locate nproxy
+cdt
+ls
+cd nproxy_rules/
+vim rule
+mv rule nproxy_rule_absence.js
+ls
+docker-compose up nproxy
+cdt
+cda
+cdt
+gradlew deploy
+clear
+docker-compose up nproxy
+cda
+ls
+cdd
+startserver 
+docker-compose up nproxy
+docker-compose up nproxy -l nproxy_rule_absence.js
+nproxy -l nproxy-rule_absence.js -p 8989
+docker-compose up nproxy
+ls
+cdt
+ls
+cd nproxy_rules/
+ls
+mv replace-rule.basic.js replace-rule.basic.js.bak
+docker-compose stop nproxy
+cdd
+docker-compose stop nproxy
+docker-compose pull nproxy
+export NPROXY_RULE=nproxy_rule_absence.js
+docker-compose up nproxy
+grep -i nprox docker-compose.yml 
+export NPROXY_RULE_FILE=nproxy_rule_absence.js
+ls
+cdt
+ls
+cd nproxy_rules/
+ls
+vim nproxy_
+vim nproxy_rule_absence.js 
+vim .bashrc
+clear
+docker-compose up nproxy
+startserver 
+cdd
+git pull
+cdc
+git pull
+cda
+git checkout master
+git commit -m "Data binding"
+git add .
+git commit -m "Data binding"
+git push
+git checkout master
+git pull
+git checkout feature/TIM-10575
+git merge master
+cdt
+gradlew clean
+gradlew deploy
+clear
+startserver 
+startserver
+cdt
+cdd
+git pull
+cda
+git pull
+cdt
+gradlew deploy
+startserver 
+ls
+git clone https://github.wdf.sap.corp/D028031/SFSF_VM_scripts.git
+cd SFSF_VM_scripts/
+./setup.sh 
+rfu_git.sh
+rfu_git.sh -u
+cd SFSF_VM_scripts/
+ls
+rfu_gradle.sh -vr
+vim rfu_git.sh 
+clear
+rfu_git.sh -u
+rfu_gradle.sh -vr
+rfu_git.sh -u
+rfu_gradle.sh -vr
+cdd
+ls
+cdt
+ls
+cd nproxy_rules/
+ls
+pcmanfm .
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install
+cda
+cd au-timemanagement-sapui5-web/
+ls
+npm install
+npm run lint:fix:quiet
+..
+git pull
+git mergetool 
+git push
+git pull
+cda
+cdd
+cdt
+gradlew deploy
+cdd
+cdt
+ls
+cd build-system/
+ls
+gradlew upgradeTomcat -Dargs='-c rfutime'
+gradlew migrateTomcat -Dargs='-c rfutime'
+cdt
+ls
+cdd
+docker-compose up nproxy -l nproxy_rule_absence.js
+startserver
+docker-compose up nproxy
+rfu_gradle.sh -vr
+cdt
+gradlew deploy
+cda
+cd au-timemanagement-sapui5-web/
+npm run lint:fix
+cd..
+..
+ls
+git pull
+cdt
+gradlew deploy
+cda
+git pull
+cd au-timemanagement-sapui5-web/
+npm run lint:fix
+cda
+git pull
+git mergetool 
+cdt
+gd
+cdt
+gd
+rfu_gradle.sh -vr
+cda
+cd au-timemanagement-sapui5-web/
+npm rum lint:fix
+r
+clear
+docker-compose up nproxy -l nproxy_rule_absence.js
+cdt
+gd
+bin/customkeymaps 
+pcmanfm 
+fixlint 
+gd
+xinput
+xev
+lint-fix 
+cda
+git pull
+git mergetool 
+gd
+startserver
+start-server 
+vim .ideavimrc
+cat .ideavimrc 
+vim .ideavimrc 
+cdt
+ls
+docker-compose npoxy up
+docker-compose up nproxy
+cdd
+gd
+vim .ideavimrc 
+lint-fix 
+notify-send
+sudo apt install libnotify-bin
+notify-send "hwllo:
+"
+sudo apt install easystroke
+xev
+vim .ideavimrc 
+jconsole 
+java
+java /data/sfsf/workspace/helloWorld/HelloWorld
+cd /data/sfsf/workspace/helloWorld/
+ls
+cd src/
+ls
+java HelloWorld
+java HelloWorld.java
+rm -rf /data/sfsf/workspace/helloWorld
+ls /data/sfsf/workspace/
+ls
+lint-fix 
+cda
+git pull
+git mergetool 
+lint-fix 
+gd
+i3-msg 'workspace 1'
+i3-msg 'workspace 1 && [class="Google-chrome"] focus'
+i3-msg 'workspace 1' && i3-msg '[class="Google-chrome"] focus'
+xev
+xprop
+xev
+lint-fix 
+cdt
+ls
+vim bin/start-server 
+cdd
+ls
+vim docker-compose.yml 
+vim .env
+ls
+cdt
+ls
+cd tomcat-sfs/
+ls
+cd webapps/
+ls
+cd ..
+locate nproxy
+cdt
+ls
+cd nproxy_rules/
+ls
+docker-compose up nproxy
+cdt
+docker-compose up nproxy
+cdd
+docker-compose up nproxy
+docker-compose up nproxy
+vim nproxy_rule_absence.js 
+gd
+vim hana_wdf-variables.env
+pcmanfm 
+start-server 
+cdd
+ls
+cd Postman/
+ls
+cdd
+cdt
+cd build-system/
+ls
+git info
+git status
+git --help
+git log
+gd
+cda
+lint-fix 
+cda
+git pull
+git mergetool
+lint-fix 
+Postman 
+sudo apt remove lxterminal 
+export EDITOR=vim
+select-editor 
+sudo apt install synapse
+gd
+cda
+cd au-timemanagement-sapui5-web/
+ls
+cd src/main/uilib/sap/employeecentral/timemanagement/payout/
+npm run lint:fix
+sudo apt install synapse
+synapse
+sudo ln -s Postman/Postman /usr/bin/
+postman
+ls /usr/bin
+/usr/bin/postman
+/usr/bin/Postman
+sudo ln -s /home/i522666/Postman/postman /usr/bin/
+ls /usr/bin
+postman
+ln -s /home/i522666/Postman/Postman /usr/bin/postman
+sudo rm /usr/bin/postman 
+ln -s /home/i522666/Postman/Postman /usr/bin/postman
+sudo ln -s /home/i522666/Postman/Postman /usr/bin/postman
+sudo ln -s /home/i522666/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh /usr/bin/intellij
+intellij
+ls /data/scripts/
+$PATH
+echo $PATH
+git pull
+gd
+cdt
+ls
+cda
+ls
+type lint-fix
+cd au-timemanagement-sapui5-web/
+ls
+cat ui5.yaml 
+cat pom.yaml 
+cat pom.xml
+cat pom.xml | less
+ls
+ls -al
+cat .eslintrc 
+ls -al
+cp .eslintrc src/main/uilib/sap/employeecentral/timemanagement/payout/
+cd src/main/uilib/sap/employeecentral/timemanagement/payout/
+ls -al
+npm run lint:fix
+vim .eslintrc 
+cda
+cd au-timemanagement-sapui5-web/
+ls
+lint-fix
+cdt
+cda
+git pull
+cdt
+cd build-system/
+ls
+git pull
+ls
+docker-compose stop
+docker-compose up nproxy
+cd ..
+gradlew clean
+cd build-system/
+./configureWorkspace 
+cdy
+cdt
+gradlew clean
+gradlew deploy
+cdt
+cda
+git push
+start-server 
+docker-compose up nproxy
+cdt 
+docker-compose up nproxy
+cdd
+vim package.json 
+cda
+git pull
+gd
+cat .bashrc
+ls
+cd nproxy_rules/
+ls
+vim nproxy_rule_absence.js 
+clear
+.bashrc
+vim .bashrc
+env
+env | grep bash
+echo $SHELL
+echo $SHELL
+xev
+env | grep bash
+env | grep fzf
+fzf
+source ~/.bashrc
+$0
+$0
+$SHELL
+cdt
+cdb
+cdt
+cd build-system/
+gradlew upgradeTomcat -Dargs='-c rfutime'
+gradlew migrateTomcat -Dargs='-c rfutime'
+lint-fix
+cdt
+cda
+git pull
+gd
+git status 
+git push
+git status 
+lint-fix 
+gd
+notify-send "blub"
+notify-send --helpt
+notify-send --help
+notify-send -u critical "blub"
+notify-send -u 'critical' "blub"
+notify-send 
+notify-send dunst
+source ~/.bashrc
+gd
+git pull
+vim Downloads/EditFormGenerator.js 
+gvim uploadCollectionFromEditGenerator.js 
+gd
+source ~/.bashrc
+fg
+mv Downloads/*.js Downloads/code/
+mv Downloads/*.deb Downloads/deb/
+vim Downloads/code/onb2EquipmentSettings.controller.js 
+vim Downloads/code/CreateTicket.*
+vim Downloads/code/EditFormGenerator.js 
+vim Downloads/code/UploadCollectionPP3.js 
+lxappearance 
+pcmanfm-gtk3
+vim 
+gd
+start-server
+gd
+start-server
+vim bin/window-switcher
+chmod +x bin/window-switcher 
+./bin/window-switcher 
+sudo ln -s /home/i522666/bin/window-switcher /usr/bin/dmenu-window-switcher
+gradlew upgradeTomcat -Dargs='-c rfutime'
+gradlew migrateTomcat -Dargs='-c rfutime'
+gd
+start-server
+ls
+cd build-system/
+git log
+git log | head
+gd
+start-server
+cda
+start-server
+xprop
+grep --help
+grep amd m:null
+grep m:null amd
+grep m:null -v amd 
+grep m:null -v amd > amd2
+cat amd2
+grep m:null -v amd > amd2
+grep <d: amd2 > amd3
+grep <d\: amd2 > amd3
+grep \<d\: amd2 > amd3
+vim amd2 
+vim amd3
+grep \<d\: amd > amd2
+grep m:null -v amd2 > amd
+cat amd
+wc amd
+grep userId amd | wc
+grep userId amd | wc -l
+grep attachmentId amd | wc -l
+grep ownerId amd | wc -l
+grep fileName amd
+grep -v log_file.txt amd > amd
+grep -v log_file.txt amd > amd2
+vim amd
+amd2
+vim amd2
+grep -v log_file.txt amd
+grep -v log amd
+grep amd
+grep -v amd log_file.txt
+grep log_file.txt -v amd
+grep \<d\: amd > amd2
+grep m:null -v amd2 > amd
+vim amd
+cat
+cat amd
+grep log_file.txt amd
+grep log_file.txt -v amd > amd2
+cat amd2
+wc -l amd2
+grep fileName -v amd > amd2
+cat amd
+grep log_file.txt -v amd > amd2
+grep log_file.txt -v amd2 > amd
+wc -l amd
+grep fileName amd
+grep Brian amd
+grep -h
+grep --help
+grep -n Brian amd
+grep -n Flag amd
+grep -n "Flag mtype=\"Edm.Int32\">1 amd
+grep -n "Flag mtype=\"Edm.Int32\">1" amd
+grep -n 'Flag mtype=\"Edm.Int32\">1' amd
+grep -n 'Flag m:type=\"Edm.Int32\">1' amd
+grep -n 'Flag m:type=\"Edm.Int32\">-1' amd
+lint-fix
+git push
+git push -u origin feature/TIM-10575
+vim amd
+vim 
+vim intellij-java-google-style.xml
+git config --global user.name "Alvaro Troya"
+git config --global user.email alvaro.troya@sap.com
+ssh
+ssh-keygen -t rsa -b 4096 -C alvaro.troya@sap.com
+ssh-add ~/.ssh/id_rsa
+docker-compose up nproxy
+startserver
+docker-compose up nproxy
+cdt
+ls
+cdd
+ls
+start-server
+rfu_gradle.sh -vC
+start-server
+echo $DB-TYPE
+echo $DBTYPE
+DBTYPE=hana
+start-server
+ls
+mkdir .local/share/file-manager/actions
+mkdir .local/share/file-manager
+mkdir .local/share/file-manager/actions
+cd ~/.local/share/file-manager/actions/
+ls
+vim .local/share/file-manager/actions/terminal-desktop
+vim
+sudo apt install nautilus
+rm .local/share/file-manager/actions/terminal.desktop 
+lxappearance 
+ls .config/gtk-3.0/settings.ini 
+vim .config/gtk-3.0/settings.ini
+ls
+xprop
+docker-compose up nproxy
+clear
+source ~/.bash_aliases 
+startserver
+nproxy
+nproxy
+docker-compose nproxy up
+docker compose nproxy up
+878
+startserver
+cdd
+ls
+887
+__ehc $(history | fzf --tac --tiebreak=index)
+bash -x "__ehc $(history | fzf --tac --tiebreak=index)"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index | perl -ne '\s*([0-9]+)'"
+lk
+jlkj
+bash -x "__ehc $(history | fzf --tac --tiebreak=index | perl -ne '\s*([0-9]+)')"
+echo $(__ech $(history | fzf --tac --tiebreak=index))
+echo $(__ehc $(history | fzf --tac --tiebreak=index))
+perl -ne 'm/^\s*([0-9]+/ and print "!$1"' "888 sdfk"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index)"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index) |perl -ne 'm/^\s*([0-9]+)/"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index|perl -ne 'm/^\s*([0-9]+)/)"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index|perl -ne 'm/^\s*([0-9]+)/')"
+$(history | fzf --tac --tiebreak=index)
+$(history | fzf --tac --tiebreak=index | perl -ne '^\s*([0-9]+)')
+$(history | fzf --tac --tiebreak=index | perl -ne 'm/^\s*([0-9]+)/')
+perl
+$(history | fzf --tac --tiebreak=index | awk -F '"' ${print2})
+$(history | fzf --tac --tiebreak=index | awk -F '"' ${print $2})
+$(history | fzf --tac --tiebreak=index | awk -F '"' '{print $2}')
+$(history | fzf --tac --tiebreak=index | awk '{print $2}')
+ls
+$(history | fzf --tac --tiebreak=index | awk '{print $2}')
+$(history | fzf --tac --tiebreak=index) | awk '{print $2}'
+$(history | fzf --tac --tiebreak=index) | awk '{print $3}'
+sudo apt install perl
+echo "2 happy" | perl -ne 'm/^\s*([0-9]+]/ and print "$1"'
+echo "2 happy" | perl -ne 'm/^\s*([0-9]+)/ and print "$1"'
+echo "2 happy" | perl -ne 'm/^\s*([0-9]+)/ and print "$2"'
+echo "2 happy" | perl -ne 'm/^\s*([0-9]+)/ and print "$0"'
+echo "2 happy" | perl -ne 'm/^\s*([0-9]+)/ and print "$1"'
+echo "happy 2" | perl -ne 'm/^\s*([0-9]+)/ and print "$1"'
+echo "happy 2" | awk '$1 !~ m/^\s*([0-9]+)'
+echo "happy 2" | awk '$1 !~ /^\s*([0-9]+)/'
+echo "123 happy 2" | awk '$1 !~ /^\s*([0-9]+)/'
+echo "123 happy 2" | sed 's/^ *\([0-9]*\)\** .*/!\1/'
+echo "123 happy 2" | sed 's/^ *\([0-9]*\)\** .*/!\2/'
+echo "123 happy 2" | sed 's/^ *\([0-9]*\)\** .*/!\1/'
+echo "123 happy 2" | sed 's/^ *\([0-9]*\)\** .*/!\0/'
+echo "123 happy 2" | sed 's/^ *\([0-9]*\)\** .*/ppe/'
+echo "123 happy 2" | sed 's/^ *\([0-9]*\)\/ppe/'
+echo "123 happy 2" | sed 's/^ *\([0-9]*\)\*/ppe/'
+echo "123 happy 2" | sed 's/[^0-9]*//g'
+echo "123 happy 2" | sed 's/[0-9]*//g'
+echo "123 happy 2 bast" | sed 's/[0-9]*//g'
+bash -x "__ehc $(history | fzf --tac --tiebreak=index | sed 's/[0-9]//g'"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index | sed 's/[0-9]//g')"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index | sed 's/[0-9]//g'"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index | sed 's/[^ ]* //'"
+bash -x "__ehc $(history | fzf --tac --tiebreak=index | sed 's/[^ ]* //')"
+man perl
+unset -o vi
+set -o vi
+man set
+bash --help
+grep amd | fileSize
+grep amd fileSize
+grep fileSize amd
+gd
+touch thisisafilewithaverylongfilenameireallymeanareallylongfilenameevenlongeraasyouwouldimagine.txt
+startserver
+gd
+startserver
+cdc
+cda
+cdd
+cd
+cda
+git checkout master
+git stash 
+git checkout
+git checkout master
+git pull
+git checkout feature/TIM-10575
+git merge master
+git mergetool 
+git stash pop
+cda
+git commit 
+git push
+cdb
+cdc
+nproxy
+git pull
+./configureWorkspace 
+cdt
+gradlew --stop
+gradlew clean 
+gd
+$nproxy
+nproxy
+startserver
+gradlew upgradeTomcat -Dargs='-c rfutime'
+gradlew migrateTomcat -Dargs='-c rfutime'
+gd
+gradlew -stop
+startserver
+cdc
+source ~/.bashrc
+updateAndMigrateTomCat 
+gradlew upgradeTomcat -Dargs='-devMode -c rfutime'
+gradlew migrateTomcat -Dargs='-devMode -c rfutime'
+startserver
+updateAndMigrateTomCat 
+gtypist
+sudo apt install gtypist 
+sudo apt autoremove
+gtypist 
+gd
+startserver
+cdc
+ls
+cdt
+gradlew karma 
+gradlew karma-dev
+ls
+cd au-timemanagement/build/karma-coverage/report/payout/controller/
+ls
+firefox index.html 
+gradlew karma_dev
+nproxy
+cdt
+gradlew karma_dev
+gradlew karma
+gradlew karma_dev
+cda
+ls
+find -name package.json
+cd au-timemanagement-sapui5-web/
+ls
+cda 
+cd au-timemanagement-sapui5-web/
+ls
+vim package.json 
+startnproxy
+startserver
+startserver
+clear
+source .inputrc 
+shopt -s expand_aliases 
+lint-fix 
+vim .inputrc
+upgradeandmigrateTomcat 
+upgradeAndMigrateTomcat 
+bin/tomcat-dev.sh 
+gd
+startserver
+upgradeAndMigrateTomcat 
+lsblk
+cd /var/lib/docker
+startnproxy
+find -name idea
+find -name intellij
+find -name intelli-j
+rfu_gradle.sh -rv
+df
+nproxy 
+rfu_gradle.sh -Cv
+devchef eclipse
+devchef Eclipse
+/usr/share/eclipse_p2/org.eclipse.equinox.p2.engine/
+ls
+cd /usr/share/eclipse_p2/org.eclipse.equinox.p2.engine/
+ls
+start-server
+prop
+xprop
+nproxy
+rfu_gradle.sh -Cr
+gd
+ls
+grep module amd
+grep -c module amd
+grep module amd | sort -u
+grep time amd | sort -u
+grep time amd
+grep -n time amd
+ping google.com
+ping www.google.com
+vim amd
+htop
+start-server
+grep lastModifiedDateTime amd
+vim actionlist
+vim actionlist.sh
+chmod +x actionlist.sh 
+sudo ln -s /home/i522666/actionlist.sh /usr/bin/
+./actionlist.sh 
+vim actionlist.sh
+./actionlist.sh 
+find bash
+find -name 'bash'
+cd /
+find -name 'bash'
+cd 
+cd bin/
+ls
+vim customkeymaps 
+cd
+./actionlist.sh 
+vim actionlist.sh
+mv actionlist.sh bin/
+sudo ln -s /home/i522666/bin/actionlist.sh /usr/bin/
+sudo rm /usr/bin/actionlist.sh 
+sudo ln -s /home/i522666/bin/actionlist.sh /usr/bin/
+grep -c amd GENERIC
+grep -c GENERIC amd
+grep -c RECRUITING amd
+grep -c DEFAULT amd
+grep -c module amd | sort -u
+grep module amd | sort -u
+grep -c EMPLOYEE amd
+grep -c EMPLOYEE_PROFILE amd
+grep -c HRIS amd
+grep -c DEFAULT amd
+rfu_git.sh --help
+rfu_git.sh -u
+cdc
+git clean
+cdc
+cdb
+cdd
+cdb
+cdc
+git clean 
+git clean --help
+git clean -n
+git clean -f
+git clean
+gd
+rfu_gradle.sh --help
+rfu_gradle.sh -Cv
+start-server
+nproxy
+upgradeAndMigrateTomcat 
+htop
+start-server
+htop
+start-server
+nproxy
+rfu_gradle.sh -Cvr
+upgradeAndMigrateTomcat 
+cdc
+cdd
+cd /data/docker/tomcat/export/log/
+ls
+pcfmman
+nautilu
+nautilus
+nproxy
+clear
+cdc
+./configureWorkspace 
+gradlew tomcatGenerateSfs
+cdt
+gradlew stop
+gradlew --stop
+gd
+nautilus .
+start-server
+grep pii amd
+cdt
+cda
+git push
+cda
+git push
+lint-fix
+cda
+git push
+find -name 'jetbrains'
+lint-fix

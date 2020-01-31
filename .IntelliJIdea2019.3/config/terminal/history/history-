@@ -1,0 +1,754 @@
+./configureWorkspace 
+gradlew tomcatGenerateSfs
+cd .. 
+gradlew deploy
+cdd
+bin/run.sh 
+docker-compose stop
+passwd
+passwd
+passwd
+cd
+..
+ls
+sudo apt install gnome-vim
+set -o vi
+sudo apt install vim
+sudo apt update
+ls
+bin/run.sh 
+cdd
+bin/run.sh 
+docker-compose stop
+sudo apt update
+cdd
+ifconfig
+bin/run.sh
+cat .env
+nano ~/.bashrc
+bin/run.sh
+sudo update-alternatives --config editor 
+sudo update-alternatives --config x-terminal-emulator 
+mv .bashrc .bashrc.bak
+sudo apt install feh yadm xcape
+cdd
+yadm clone https:/github.com/alvarotroya/dotfiles
+yadm clone https://github.com/alvarotroya/dotfiles
+yadm clone -f https://github.com/alvarotroya/dotfiles
+vi .bashrc
+bin/run.sh 
+htop
+gsettings set org.gnome.Terminal.Legacy.Settings confirm-close false
+htop
+bin/run.sh 
+htop
+cdd
+bin/run.sh 
+sudo apt install fonts-liberation 
+ls Downloads/
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+sudo dpkg -i Downloads/google-chrome-stable_current_amd64.deb 
+vim .vimiumconfig 
+vim
+google-chrome
+vim .vimiumconfig 
+gedit 
+cdd
+sudo apt install build-essential cmake python3-dev
+python3 .vim/bundle/YouCompleteMe/install.py --clang-completer
+vim
+bin/run.sh 
+vim 
+sudo apt install i3-wm
+cdd
+bin/run.sh 
+./bin/customkeymaps 
+ls .config/polybar/
+sudo apt install suckless-tools 
+sudo ln -s /usr/share/eclipse_4.6.3/eclipse/eclipse /usr/bin/
+htop
+cdd
+bin/run.sh 
+.env
+cd .env
+cat .env 
+env
+env | grep TOMCAT
+.env | grep biz
+cat .env | grep biz
+ls
+cat hana-variables.env 
+cat hana-wdf-variables.env 
+cat hana_wdf-variables.env 
+mv hana_wdf-variables.env hana_wdf-variables.env.bak
+vim hana_wdf-variables.env
+cdd
+bin/run.sh 
+cdd
+cat hana_wdf-variables.env
+ls
+cat ~/.bashrc
+cat ~/.bashrc | head -n 10
+bin/run.sh 
+vim .env
+vim .enclearv
+:q
+clear
+ls
+clear
+ls
+cdd
+cat bin/run.sh 
+bin/run.sh 
+vim .bashrc
+cdd
+.env
+cat .env
+cat .env | grep wdf
+vim ~/.bashrc
+cargo
+vim .i3/i3bar.conf
+vim .i3/config
+sudo apt install i3status
+ls .i3/
+mv .i3/i3bar.conf .i3/i3status.conf
+vim foo
+sudo apt install vim-gnome
+vim
+clear
+ls
+vim .i3/config 
+cdd
+clear
+bin/run.sh 
+xev
+env
+xinput
+xgrep
+xprop
+vim .i3/config 
+xprop
+vmware-user-suid-wrapper 
+lxappearance 
+nautilus
+thunar
+files
+gnome-terminal -e 'vim --servername VIM /home/i522666/.bash_aliases'
+vim .i3/config 
+cd bin/
+vim start-server
+gnome-terminal e 'cdd && bin/run.sh'
+gnome-terminal -e 'cdd && bin/run.sh'
+gnome-terminal -e 'sleep 2 && cdd && sleep 1 && bin/run.sh'
+cdd
+gnome-terminal -e 'sleep 3 && cdd'
+cdd
+cd
+vim bin/customkeymaps 
+./bin/start-server 
+google-chrome --help
+i3-msg 'workspace 9'
+./bin/start-server 
+google-chrome --new-window "localhost:8080/login|
+"
+google-chrome --new-window "google.com"
+google-chrome --new-window "localhost:8080"
+google-chrome --new-window "localhost:8080/login"
+ifconfig 
+google-chrome --new-window "192.168.237.128:8080/login" 
+google-chrome --new-window "http://localhost:8080/login" 
+cd
+./bin/start-server 
+bash /home/i522666/bin/start-server 
+clear
+./bin/start-server 
+notify-send "hello"
+xfce4-notifyd-config 
+xev
+xe
+xev
+xev | grep -i button
+./bin/start-server 
+cdd
+cdc
+ls
+laer
+clear
+clc
+ls
+clc
+ls
+cd build-system/
+git pull
+clc
+cd ..
+clc
+cdd
+clc
+clc 
+git clone https://github.wdf.sap.corp/bizx/au-timemanagement
+clc
+xev
+setxkbmap --help
+setxkbmap -h
+showconsolefont 
+showconsolefont `
+setxkbmap de
+showconsolefont `
+nano /etc/default/keyboard 
+env
+setxkbmap us
+sudo dpkg -i Downloads/wkhtmltox_0.12.5-1.xenial_amd64.deb 
+sudo apt install xfonts-75dpi
+sudo dpkg -i Downloads/wkhtmltox_0.12.5-1.xenial_amd64.deb 
+wkhtmltopdf file:///home/i522666/Time%20Management%20ERD%20b1905.svg
+wkhtmltopdf file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf --page-width 297 --page-length 420 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 --no-collate file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo.pdf
+wkhtmltopdf -s A3 file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+wkhtmltopdf -h
+wkhtmltopdf -s A3 -O Landscape file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+wkhtmltopdf -s A2 -O Landscape file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+wkhtmltopdf -s A2 -O Portrait file:///home/i522666/Time%20Management%20ERD%20b1905.svg foo123.pdf
+git config --list
+cdd
+cdc
+cdd
+vim .git/config 
+cd
+ls
+sudo apt install seahorse
+vim .gitconfig 
+cdc
+git pull
+cd
+devchef intellij
+tar -xzf Downloads/jetbrains-toolbox-1.16.6016.tar.gz 
+ls
+cd jetbrains-toolbox-1.16.6016/
+ls
+jetbrains-toolbox 
+sudo su
+locate idea
+jetbrains-toolbox-1.16.6016/jetbrains-toolbox 
+locate idea
+sudo ln -s .local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh /usr/bin/
+cdc
+idea.sh
+idea
+/usr/bin/idea.sh
+bash /usr/bin/idea.sh
+sudo rm /usr/bin/idea.sh 
+locate eclipse
+locate eclipse | grep usr
+locate eclipse | grep usr/bin
+clear
+.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh 
+ln -s .local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh idea
+ls
+idea
+ls .bash
+ls .bash*
+vim .bashrc
+sudo ln -s idea /usr/bin/
+cdc
+git checkout feature/TIME10575
+git pull
+git checkout feature/TIM10575
+git checkout feature/TIM-10575
+git pull
+cdd
+cdc
+cdt
+cda
+cdt
+gradlew deploy
+gradlew --stacktrace deploy 
+startserver
+startserver 
+cdt
+..
+mkdir nproxy_rules
+vim nproxy_rules/nproxy_rule_absence.js
+cdd
+cda
+git pull
+docker-compose up nproxy
+cdt
+gradlew deploy
+cdd
+startserver 
+cdt
+cda
+git stash
+git pull
+cdt
+gradlew deploy
+docker-compose up nproxy
+vim bin/customkeymaps 
+ls
+export DBTYPE=hana
+echo DBTYPE
+echo $DBTYPE
+startserver 
+export DBTYPE=hana
+echo $DBTYPE
+DBTYPE=hana
+echo $DBTYPE
+vim .env 
+startserver 
+DBTYPE=hana_wdf
+startserver 
+DBTYPE=hana_wdf
+startserver 
+r
+clear
+gradlew deploy
+cdc
+cdd
+ls .
+ls .*
+vim nproxy_rules/nproxy_rule_absence.js
+cdt
+ls
+vim nproxy_rules/nproxy_rule_absence.js
+cd nproxy_rules/
+ls
+locate nproxy_
+locate nproxy_*
+cd /
+locate nproxy_*
+locate nproxy*
+locate nproxy
+q
+cdd
+ls
+jcdt
+ls
+cdt
+ls
+ls nproxy_rules/
+clear
+ls
+cdt
+cda
+git pull
+git commit -m "Controller PayoutDashboard"
+git push
+vim nproxy_rules/nproxy_rule_absence.js
+ils
+ls
+..
+cdd
+ls
+cd ./
+cd .
+cd /
+locate nproxy_absence
+locate nproxy
+cdt
+ls
+cd nproxy_rules/
+vim rule
+mv rule nproxy_rule_absence.js
+ls
+docker-compose up nproxy
+cdt
+cda
+cdt
+gradlew deploy
+clear
+docker-compose up nproxy
+cda
+ls
+cdd
+startserver 
+docker-compose up nproxy
+docker-compose up nproxy -l nproxy_rule_absence.js
+nproxy -l nproxy-rule_absence.js -p 8989
+docker-compose up nproxy
+ls
+cdt
+ls
+cd nproxy_rules/
+ls
+mv replace-rule.basic.js replace-rule.basic.js.bak
+docker-compose stop nproxy
+cdd
+docker-compose stop nproxy
+docker-compose pull nproxy
+export NPROXY_RULE=nproxy_rule_absence.js
+docker-compose up nproxy
+grep -i nprox docker-compose.yml 
+export NPROXY_RULE_FILE=nproxy_rule_absence.js
+ls
+cdt
+ls
+cd nproxy_rules/
+ls
+vim nproxy_
+vim nproxy_rule_absence.js 
+vim .bashrc
+clear
+docker-compose up nproxy
+startserver 
+cdd
+git pull
+cdc
+git pull
+cda
+git checkout master
+git commit -m "Data binding"
+git add .
+git commit -m "Data binding"
+git push
+git checkout master
+git pull
+git checkout feature/TIM-10575
+git merge master
+cdt
+gradlew clean
+gradlew deploy
+clear
+startserver 
+startserver
+cdt
+cdd
+git pull
+cda
+git pull
+cdt
+gradlew deploy
+startserver 
+ls
+git clone https://github.wdf.sap.corp/D028031/SFSF_VM_scripts.git
+cd SFSF_VM_scripts/
+./setup.sh 
+rfu_git.sh
+rfu_git.sh -u
+cd SFSF_VM_scripts/
+ls
+rfu_gradle.sh -vr
+vim rfu_git.sh 
+clear
+rfu_git.sh -u
+rfu_gradle.sh -vr
+rfu_git.sh -u
+rfu_gradle.sh -vr
+cdd
+ls
+cdt
+ls
+cd nproxy_rules/
+ls
+pcmanfm .
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install
+cda
+cd au-timemanagement-sapui5-web/
+ls
+npm install
+npm run lint:fix:quiet
+..
+git pull
+git mergetool 
+git push
+git pull
+cda
+cdd
+cdt
+gradlew deploy
+cdd
+cdt
+ls
+cd build-system/
+ls
+gradlew upgradeTomcat -Dargs='-c rfutime'
+gradlew migrateTomcat -Dargs='-c rfutime'
+cdt
+ls
+cdd
+docker-compose up nproxy -l nproxy_rule_absence.js
+startserver
+docker-compose up nproxy
+rfu_gradle.sh -vr
+cdt
+gradlew deploy
+cda
+cd au-timemanagement-sapui5-web/
+npm run lint:fix
+cd..
+..
+ls
+git pull
+cdt
+gradlew deploy
+cda
+git pull
+cd au-timemanagement-sapui5-web/
+npm run lint:fix
+cda
+git pull
+git mergetool 
+cdt
+gd
+cdt
+gd
+rfu_gradle.sh -vr
+cda
+cd au-timemanagement-sapui5-web/
+npm rum lint:fix
+r
+clear
+docker-compose up nproxy -l nproxy_rule_absence.js
+cdt
+gd
+bin/customkeymaps 
+pcmanfm 
+fixlint 
+gd
+xinput
+xev
+lint-fix 
+cda
+git pull
+git mergetool 
+gd
+startserver
+start-server 
+vim .ideavimrc
+cat .ideavimrc 
+vim .ideavimrc 
+cdt
+ls
+docker-compose npoxy up
+docker-compose up nproxy
+cdd
+gd
+vim .ideavimrc 
+lint-fix 
+notify-send
+sudo apt install libnotify-bin
+notify-send "hwllo:
+"
+sudo apt install easystroke
+xev
+vim .ideavimrc 
+jconsole 
+java
+java /data/sfsf/workspace/helloWorld/HelloWorld
+cd /data/sfsf/workspace/helloWorld/
+ls
+cd src/
+ls
+java HelloWorld
+java HelloWorld.java
+rm -rf /data/sfsf/workspace/helloWorld
+ls /data/sfsf/workspace/
+ls
+lint-fix 
+cda
+git pull
+git mergetool 
+lint-fix 
+gd
+i3-msg 'workspace 1'
+i3-msg 'workspace 1 && [class="Google-chrome"] focus'
+i3-msg 'workspace 1' && i3-msg '[class="Google-chrome"] focus'
+xev
+xprop
+xev
+lint-fix 
+cdt
+ls
+vim bin/start-server 
+cdd
+ls
+vim docker-compose.yml 
+vim .env
+ls
+cdt
+ls
+cd tomcat-sfs/
+ls
+cd webapps/
+ls
+cd ..
+locate nproxy
+cdt
+ls
+cd nproxy_rules/
+ls
+docker-compose up nproxy
+cdt
+docker-compose up nproxy
+cdd
+docker-compose up nproxy
+docker-compose up nproxy
+vim nproxy_rule_absence.js 
+gd
+vim hana_wdf-variables.env
+pcmanfm 
+start-server 
+cdd
+ls
+cd Postman/
+ls
+cdd
+cdt
+cd build-system/
+ls
+git info
+git status
+git --help
+git log
+gd
+cda
+lint-fix 
+cda
+git pull
+git mergetool
+lint-fix 
+Postman 
+sudo apt remove lxterminal 
+export EDITOR=vim
+select-editor 
+sudo apt install synapse
+gd
+cda
+cd au-timemanagement-sapui5-web/
+ls
+cd src/main/uilib/sap/employeecentral/timemanagement/payout/
+npm run lint:fix
+sudo apt install synapse
+synapse
+sudo ln -s Postman/Postman /usr/bin/
+postman
+ls /usr/bin
+/usr/bin/postman
+/usr/bin/Postman
+sudo ln -s /home/i522666/Postman/postman /usr/bin/
+ls /usr/bin
+postman
+ln -s /home/i522666/Postman/Postman /usr/bin/postman
+sudo rm /usr/bin/postman 
+ln -s /home/i522666/Postman/Postman /usr/bin/postman
+sudo ln -s /home/i522666/Postman/Postman /usr/bin/postman
+sudo ln -s /home/i522666/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/192.7142.36/bin/idea.sh /usr/bin/intellij
+intellij
+ls /data/scripts/
+$PATH
+echo $PATH
+git pull
+gd
+cdt
+ls
+cda
+ls
+type lint-fix
+cd au-timemanagement-sapui5-web/
+ls
+cat ui5.yaml 
+cat pom.yaml 
+cat pom.xml
+cat pom.xml | less
+ls
+ls -al
+cat .eslintrc 
+ls -al
+cp .eslintrc src/main/uilib/sap/employeecentral/timemanagement/payout/
+cd src/main/uilib/sap/employeecentral/timemanagement/payout/
+ls -al
+npm run lint:fix
+vim .eslintrc 
+cda
+cd au-timemanagement-sapui5-web/
+ls
+lint-fix
+cdt
+cda
+git pull
+cdt
+cd build-system/
+ls
+git pull
+ls
+docker-compose stop
+docker-compose up nproxy
+cd ..
+gradlew clean
+cd build-system/
+./configureWorkspace 
+cdy
+cdt
+gradlew clean
+gradlew deploy
+cdt
+cda
+git push
+start-server 
+docker-compose up nproxy
+cdt 
+docker-compose up nproxy
+cdd
+vim package.json 
+cda
+git pull
+gd
+cat .bashrc
+ls
+cd nproxy_rules/
+ls
+vim nproxy_rule_absence.js 
+clear
+.bashrc
+vim .bashrc
+env
+env | grep bash
+echo $SHELL
+echo $SHELL
+xev
+env | grep bash
+env | grep fzf
+fzf
+source ~/.bashrc
+$0
+$0
+$SHELL
+cdt
+cdb
+cdt
+cd build-system/
+gradlew upgradeTomcat -Dargs='-c rfutime'
+gradlew migrateTomcat -Dargs='-c rfutime'
+lint-fix
+cdt
+cda
+git pull
+gd
+git status 
+git push
+git status 
+lint-fix 
+gd
+notify-send "blub"
+notify-send --helpt
+notify-send --help
+notify-send -u critical "blub"
+notify-send -u 'critical' "blub"
+notify-send 
+notify-send dunst
+source ~/.bashrc
+gd
+git pull
+vim Downloads/EditFormGenerator.js 
+gvim uploadCollectionFromEditGenerator.js 
+gd
+source ~/.bashrc
+lint-fix
+lint-fix 
+clear
+lint-fix

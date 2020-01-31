@@ -1,0 +1,3304 @@
+<application>
+  <component name="sonar-resources-application-component">
+    <option name="sonarResourcesBySonarServerName">
+      <map>
+        <entry key="au-timemanagement">
+          <value>
+            <list>
+              <Resource>
+                <option name="key" value="sonarqube-scanner-gradle" />
+                <option name="name" value="Example of SonarQube Scanner for Gradle Usage" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="LMS-learning" />
+                <option name="name" value="LMS-learning" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="RMK" />
+                <option name="name" value="RMK" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="ajaxservice-tools" />
+                <option name="name" value="ajaxservice-tools" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="appservice-cockpit-cacheprovisioning-service-stage" />
+                <option name="name" value="appservice-cockpit-cacheprovisioning-service-stage" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="appservice-sfsf-plt-static-content-hosting" />
+                <option name="name" value="appservice-sfsf-plt-static-content-hosting" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="appservice-sfsf-rcm-agency2" />
+                <option name="name" value="appservice-sfsf-rcm-agency2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="appservice-sfsf-rcm-agency2-staging" />
+                <option name="name" value="appservice-sfsf-rcm-agency2-staging" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-V4" />
+                <option name="name" value="au-V4" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-absencemanagementlocalization" />
+                <option name="name" value="au-absencemanagementlocalization" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-actionsearch" />
+                <option name="name" value="au-actionsearch" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-adminalerts" />
+                <option name="name" value="au-adminalerts" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-adminhomepage" />
+                <option name="name" value="au-adminhomepage" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-advancedanalytics" />
+                <option name="name" value="au-advancedanalytics" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-agency" />
+                <option name="name" value="au-agency" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-alertgui" />
+                <option name="name" value="au-alertgui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-analyticspane" />
+                <option name="name" value="au-analyticspane" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-analyticsscorecard" />
+                <option name="name" value="au-analyticsscorecard" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-analyticstiles" />
+                <option name="name" value="au-analyticstiles" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-apprenticemanagement" />
+                <option name="name" value="au-apprenticemanagement" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-attendanceintegration" />
+                <option name="name" value="au-attendanceintegration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-attendancerecording" />
+                <option name="name" value="au-attendancerecording" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-auditloggingservice" />
+                <option name="name" value="au-auditloggingservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-authentication" />
+                <option name="name" value="au-authentication" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-axis" />
+                <option name="name" value="au-axis" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-bemigration" />
+                <option name="name" value="au-bemigration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-benefitsmanagement" />
+                <option name="name" value="au-benefitsmanagement" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-bestpractices" />
+                <option name="name" value="au-bestpractices" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-bireport" />
+                <option name="name" value="au-bireport" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-bizxrayui" />
+                <option name="name" value="au-bizxrayui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-businessconfig" />
+                <option name="name" value="au-businessconfig" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-cacheconfig" />
+                <option name="name" value="au-cacheconfig" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-calibration" />
+                <option name="name" value="au-calibration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-career" />
+                <option name="name" value="au-career" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-cdp" />
+                <option name="name" value="au-cdp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-classicanalytics" />
+                <option name="name" value="au-classicanalytics" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-cogui" />
+                <option name="name" value="au-cogui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-comdfx" />
+                <option name="name" value="au-comdfx" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-commonshell" />
+                <option name="name" value="au-commonshell" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-compensationvarpay" />
+                <option name="name" value="au-compensationvarpay" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-complaincecenter" />
+                <option name="name" value="au-complaincecenter" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-configurationmanifest" />
+                <option name="name" value="au-configurationmanifest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-consistencycheck" />
+                <option name="name" value="au-consistencycheck" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-contingentworker" />
+                <option name="name" value="au-contingentworker" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-continuousperformancex" />
+                <option name="name" value="au-continuousperformancex" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-cpp" />
+                <option name="name" value="au-cpp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-datareplication" />
+                <option name="name" value="au-datareplication" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-dataresidencyinvoker" />
+                <option name="name" value="au-dataresidencyinvoker" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-dataretention" />
+                <option name="name" value="au-dataretention" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-datasubjectinformation" />
+                <option name="name" value="au-datasubjectinformation" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-digitalexperience" />
+                <option name="name" value="au-digitalexperience" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-directorysearch" />
+                <option name="name" value="au-directorysearch" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-documentgeneration" />
+                <option name="name" value="au-documentgeneration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-docusignadaptor" />
+                <option name="name" value="au-docusignadaptor" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-dtangtest" />
+                <option name="name" value="au-dtangtest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-dynresource" />
+                <option name="name" value="au-dynresource" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-easysupport" />
+                <option name="name" value="au-easysupport" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ec2mds" />
+                <option name="name" value="au-ec2mds" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ecintegration" />
+                <option name="name" value="au-ecintegration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ecintegration-test" />
+                <option name="name" value="au-ecintegration-test" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ecloc" />
+                <option name="name" value="au-ecloc" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-emailcampaign" />
+                <option name="name" value="au-emailcampaign" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-emailframework" />
+                <option name="name" value="au-emailframework" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-employeecentral" />
+                <option name="name" value="au-employeecentral" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:au-employeecentral:au-employeecentral-web" />
+                <option name="name" value="au-employeecentral-web" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-employeeprofile" />
+                <option name="name" value="au-employeeprofile" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-employeeprofilepoc" />
+                <option name="name" value="au-employeeprofilepoc" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-employment" />
+                <option name="name" value="au-employment" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-enablenow" />
+                <option name="name" value="au-enablenow" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-encrgui" />
+                <option name="name" value="au-encrgui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-encryptionkeys" />
+                <option name="name" value="au-encryptionkeys" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-entityorgchart" />
+                <option name="name" value="au-entityorgchart" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-errorcodesystem" />
+                <option name="name" value="au-errorcodesystem" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-execmanager" />
+                <option name="name" value="au-execmanager" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-executionmanager" />
+                <option name="name" value="au-executionmanager" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-extensioncenter" />
+                <option name="name" value="au-extensioncenter" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-extensionsupport" />
+                <option name="name" value="au-extensionsupport" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-externaluser" />
+                <option name="name" value="au-externaluser" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-flexapps" />
+                <option name="name" value="au-flexapps" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-fo" />
+                <option name="name" value="au-fo" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-genericobject" />
+                <option name="name" value="au-genericobject" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-genericobjectreport" />
+                <option name="name" value="au-genericobjectreport" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-genericobjectruleengine" />
+                <option name="name" value="au-genericobjectruleengine" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-genericobjecttest" />
+                <option name="name" value="au-genericobjecttest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-goalmanagement" />
+                <option name="name" value="au-goalmanagement" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-goalmanagementx" />
+                <option name="name" value="au-goalmanagementx" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-godatapurge" />
+                <option name="name" value="au-godatapurge" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-govaluehelp" />
+                <option name="name" value="au-govaluehelp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-hermesmonitor" />
+                <option name="name" value="au-hermesmonitor" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-hermesrest" />
+                <option name="name" value="au-hermesrest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-homepage" />
+                <option name="name" value="au-homepage" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-homepage3" />
+                <option name="name" value="au-homepage3" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-homepage4" />
+                <option name="name" value="au-homepage4" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-hqautoconfig" />
+                <option name="name" value="au-hqautoconfig" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-industrycostobject" />
+                <option name="name" value="au-industrycostobject" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-infinite" />
+                <option name="name" value="au-infinite" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-inproductsupport" />
+                <option name="name" value="au-inproductsupport" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-insight" />
+                <option name="name" value="au-insight" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-instancepairui" />
+                <option name="name" value="au-instancepairui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-integrationbuilder" />
+                <option name="name" value="au-integrationbuilder" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-integrationbuilderext" />
+                <option name="name" value="au-integrationbuilderext" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-intracareer" />
+                <option name="name" value="au-intracareer" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ise" />
+                <option name="name" value="au-ise" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ist" />
+                <option name="name" value="au-ist" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-istmdf" />
+                <option name="name" value="au-istmdf" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-itr" />
+                <option name="name" value="au-itr" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-jdmng" />
+                <option name="name" value="au-jdmng" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-jobsearch" />
+                <option name="name" value="au-jobsearch" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-legacy" />
+                <option name="name" value="au-legacy" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-leonardoml" />
+                <option name="name" value="au-leonardoml" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-login" />
+                <option name="name" value="au-login" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestro-web" />
+                <option name="name" value="au-maestro-web" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestro-web:au-maestro-web-api" />
+                <option name="name" value="au-maestro-web-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestro-web:au-maestro-web-service" />
+                <option name="name" value="au-maestro-web-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestro-web:au-maestro-web-ui" />
+                <option name="name" value="au-maestro-web-ui" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestroadmin" />
+                <option name="name" value="au-maestroadmin" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestrointegrationtest" />
+                <option name="name" value="au-maestrointegrationtest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestrointegrationtest:au-maestrointegrationtest-service" />
+                <option name="name" value="au-maestrointegrationtest-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestrotest" />
+                <option name="name" value="au-maestrotest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-maestrov4" />
+                <option name="name" value="au-maestrov4" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-masschanges" />
+                <option name="name" value="au-masschanges" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mdfapishow" />
+                <option name="name" value="au-mdfapishow" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mdfeditadapter" />
+                <option name="name" value="au-mdfeditadapter" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mdfperftest" />
+                <option name="name" value="au-mdfperftest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mdfworkflow" />
+                <option name="name" value="au-mdfworkflow" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mds2ec" />
+                <option name="name" value="au-mds2ec" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-messagepublisher" />
+                <option name="name" value="au-messagepublisher" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mobile" />
+                <option name="name" value="au-mobile" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mobileadmin" />
+                <option name="name" value="au-mobileadmin" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-mobilepm" />
+                <option name="name" value="au-mobilepm" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-multirater" />
+                <option name="name" value="au-multirater" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-oauth2gui" />
+                <option name="name" value="au-oauth2gui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-offcyclecomp" />
+                <option name="name" value="au-offcyclecomp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-offer" />
+                <option name="name" value="au-offer" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-onb2compliance" />
+                <option name="name" value="au-onb2compliance" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-onboarding" />
+                <option name="name" value="au-onboarding" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-onboarding2" />
+                <option name="name" value="au-onboarding2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-onboardingmigration" />
+                <option name="name" value="au-onboardingmigration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-opscenter" />
+                <option name="name" value="au-opscenter" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-oraclebipublisher" />
+                <option name="name" value="au-oraclebipublisher" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-owfp" />
+                <option name="name" value="au-owfp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-paaeconfigservice" />
+                <option name="name" value="au-paaeconfigservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-paaedataintegrationservice" />
+                <option name="name" value="au-paaedataintegrationservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-paaegenerationservice" />
+                <option name="name" value="au-paaegenerationservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-paaemetadataservice" />
+                <option name="name" value="au-paaemetadataservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-payroll" />
+                <option name="name" value="au-payroll" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-peopleprofile" />
+                <option name="name" value="au-peopleprofile" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-performancemanagement" />
+                <option name="name" value="au-performancemanagement" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-permissionadmin" />
+                <option name="name" value="au-permissionadmin" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-person" />
+                <option name="name" value="au-person" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-personandemployment" />
+                <option name="name" value="au-personandemployment" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-personbackground" />
+                <option name="name" value="au-personbackground" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-personsearch" />
+                <option name="name" value="au-personsearch" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-phoenix" />
+                <option name="name" value="au-phoenix" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-picklist" />
+                <option name="name" value="au-picklist" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-pool" />
+                <option name="name" value="au-pool" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-positioncommon" />
+                <option name="name" value="au-positioncommon" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-positionmanagement" />
+                <option name="name" value="au-positionmanagement" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-profile" />
+                <option name="name" value="au-profile" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-provisioning" />
+                <option name="name" value="au-provisioning" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-publicsector" />
+                <option name="name" value="au-publicsector" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-qualtrics" />
+                <option name="name" value="au-qualtrics" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-quickcard" />
+                <option name="name" value="au-quickcard" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ratingext" />
+                <option name="name" value="au-ratingext" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-rcmdashboard" />
+                <option name="name" value="au-rcmdashboard" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-recruiting" />
+                <option name="name" value="au-recruiting" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-releasecenter" />
+                <option name="name" value="au-releasecenter" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-remoteobjectstore" />
+                <option name="name" value="au-remoteobjectstore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-reportcenter" />
+                <option name="name" value="au-reportcenter" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-ruleengine" />
+                <option name="name" value="au-ruleengine" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sebhornetq" />
+                <option name="name" value="au-sebhornetq" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sebhornetq:au-sebhornetq-service" />
+                <option name="name" value="au-sebhornetq-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sebhornetq:au-sebhornetq-ui" />
+                <option name="name" value="au-sebhornetq-ui" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sebhornetq:au-sebhornetq-web" />
+                <option name="name" value="au-sebhornetq-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-security" />
+                <option name="name" value="au-security" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sef" />
+                <option name="name" value="au-sef" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sessionmgmt" />
+                <option name="name" value="au-sessionmgmt" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sfsaml2" />
+                <option name="name" value="au-sfsaml2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sfworkflow" />
+                <option name="name" value="au-sfworkflow" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-showme" />
+                <option name="name" value="au-showme" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sittestsample" />
+                <option name="name" value="au-sittestsample" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-sm" />
+                <option name="name" value="au-sm" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-smcore" />
+                <option name="name" value="au-smcore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-smext" />
+                <option name="name" value="au-smext" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-smnomination" />
+                <option name="name" value="au-smnomination" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-staticcontent" />
+                <option name="name" value="au-staticcontent" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-successline" />
+                <option name="name" value="au-successline" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-suitereportinglms" />
+                <option name="name" value="au-suitereportinglms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-suitereportingmigration" />
+                <option name="name" value="au-suitereportingmigration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-talentcard" />
+                <option name="name" value="au-talentcard" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-talentcommons" />
+                <option name="name" value="au-talentcommons" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-talentreview" />
+                <option name="name" value="au-talentreview" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-talentuxr" />
+                <option name="name" value="au-talentuxr" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-tenantrefreshui" />
+                <option name="name" value="au-tenantrefreshui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-theming" />
+                <option name="name" value="au-theming" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-timedatareplication" />
+                <option name="name" value="au-timedatareplication" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-timemanagement" />
+                <option name="name" value="au-timemanagement" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-timemanagementdocumentgeneration" />
+                <option name="name" value="au-timemanagementdocumentgeneration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-timesheet" />
+                <option name="name" value="au-timesheet" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-todo" />
+                <option name="name" value="au-todo" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-unifiedstructures" />
+                <option name="name" value="au-unifiedstructures" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-upgradecenter" />
+                <option name="name" value="au-upgradecenter" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-user" />
+                <option name="name" value="au-user" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-useraccount" />
+                <option name="name" value="au-useraccount" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-userassistance" />
+                <option name="name" value="au-userassistance" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-usermanagement" />
+                <option name="name" value="au-usermanagement" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-wing" />
+                <option name="name" value="au-wing" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-workflow" />
+                <option name="name" value="au-workflow" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-workforceanalytics" />
+                <option name="name" value="au-workforceanalytics" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-workforceanalytics:au-workforceanalytics-service" />
+                <option name="name" value="au-workforceanalytics-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-workforceanalytics:au-workforceanalytics-ui" />
+                <option name="name" value="au-workforceanalytics-ui" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-workstructure" />
+                <option name="name" value="au-workstructure" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-wsapigui" />
+                <option name="name" value="au-wsapigui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-xmlconfigurator" />
+                <option name="name" value="au-xmlconfigurator" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="au-youcalc" />
+                <option name="name" value="au-youcalc" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dbtools" />
+                <option name="name" value="dbtools" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full" />
+                <option name="name" value="dev-full" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-help-support" />
+                <option name="name" value="learning-help-support" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-license" />
+                <option name="name" value="learning-license" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-scorm2004-shared" />
+                <option name="name" value="learning-scorm2004-shared" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-scorm4ed-api" />
+                <option name="name" value="learning-scorm4ed-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-user-alerts-api" />
+                <option name="name" value="learning-user-alerts-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-user-approvals-api" />
+                <option name="name" value="learning-user-approvals-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-user-catalogsearch-api" />
+                <option name="name" value="learning-user-catalogsearch-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-user-learningtodo-api" />
+                <option name="name" value="learning-user-learningtodo-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="dev-full:learning-user-portal-api" />
+                <option name="name" value="learning-user-portal-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="file_service" />
+                <option name="name" value="file_service" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="gdpr-reporting-service" />
+                <option name="name" value="gdpr-reporting-service" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-activity-svc" />
+                <option name="name" value="hop-activity-svc" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-platform-cache" />
+                <option name="name" value="hop-platform-cache" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-platform-common" />
+                <option name="name" value="hop-platform-common" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-platform-database" />
+                <option name="name" value="hop-platform-database" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-platform-security" />
+                <option name="name" value="hop-platform-security" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-platform-tenant" />
+                <option name="name" value="hop-platform-tenant" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-platform-tenant-lifecycle" />
+                <option name="name" value="hop-platform-tenant-lifecycle" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="hop-tlms-svc" />
+                <option name="name" value="hop-tlms-svc" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-ajaxservice" />
+                <option name="name" value="idl-ajaxservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-alert" />
+                <option name="name" value="idl-alert" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-analytics-api" />
+                <option name="name" value="idl-analytics-api" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-analytics-core" />
+                <option name="name" value="idl-analytics-core" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-analytics-eclipse" />
+                <option name="name" value="idl-analytics-eclipse" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-analytics-report-viewer" />
+                <option name="name" value="idl-analytics-report-viewer" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-analytics-subjectarea" />
+                <option name="name" value="idl-analytics-subjectarea" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-analyticssuitereporting" />
+                <option name="name" value="idl-analyticssuitereporting" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apiauth" />
+                <option name="name" value="idl-apiauth" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apiautoframework" />
+                <option name="name" value="idl-apiautoframework" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apiclient" />
+                <option name="name" value="idl-apiclient" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apicontext" />
+                <option name="name" value="idl-apicontext" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apieff" />
+                <option name="name" value="idl-apieff" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apirouting" />
+                <option name="name" value="idl-apirouting" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apiserviceexception" />
+                <option name="name" value="idl-apiserviceexception" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apishow" />
+                <option name="name" value="idl-apishow" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-apiutils" />
+                <option name="name" value="idl-apiutils" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-appconfig" />
+                <option name="name" value="idl-appconfig" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-applicationcontext" />
+                <option name="name" value="idl-applicationcontext" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-applicationcontext" />
+                <option name="name" value="idl-applicationcontext" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-applicationcontext:idl-applicationcontext:idl-applicationcontext-api" />
+                <option name="name" value="idl-applicationcontext-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-applicationcontext:idl-applicationcontext:idl-applicationcontext-service" />
+                <option name="name" value="idl-applicationcontext-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-applicationcontext:idl-applicationcontext-api" />
+                <option name="name" value="idl-applicationcontext-api" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-applicationcontext:idl-applicationcontext-service" />
+                <option name="name" value="idl-applicationcontext-service" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-applicationcontext:idl-applicationcontext-testdata-api" />
+                <option name="name" value="idl-applicationcontext-testdata-api" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-applicationcontext:idl-applicationcontext-testdata-service" />
+                <option name="name" value="idl-applicationcontext-testdata-service" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-appsec" />
+                <option name="name" value="idl-appsec" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-auditlogging" />
+                <option name="name" value="idl-auditlogging" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-autoutils" />
+                <option name="name" value="idl-autoutils" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-aytintegrationservice" />
+                <option name="name" value="idl-aytintegrationservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-bepersistence" />
+                <option name="name" value="idl-bepersistence" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-bffconfigprovider" />
+                <option name="name" value="idl-bffconfigprovider" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-bigdatacfg" />
+                <option name="name" value="idl-bigdatacfg" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-birt-report-viewer" />
+                <option name="name" value="idl-birt-report-viewer" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-bitmapset" />
+                <option name="name" value="idl-bitmapset" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-bizxconfiginjection" />
+                <option name="name" value="idl-bizxconfiginjection" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-bizxconfigservice" />
+                <option name="name" value="idl-bizxconfigservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-bizxray" />
+                <option name="name" value="idl-bizxray" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-blobstorage" />
+                <option name="name" value="idl-blobstorage" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cache" />
+                <option name="name" value="idl-cache" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cachelegacy" />
+                <option name="name" value="idl-cachelegacy" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cachenodemgr" />
+                <option name="name" value="idl-cachenodemgr" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cacheutil" />
+                <option name="name" value="idl-cacheutil" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-category" />
+                <option name="name" value="idl-category" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-charting" />
+                <option name="name" value="idl-charting" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-coapi" />
+                <option name="name" value="idl-coapi" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-codomain" />
+                <option name="name" value="idl-codomain" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-coengine" />
+                <option name="name" value="idl-coengine" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cofoundation" />
+                <option name="name" value="idl-cofoundation" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-comdf" />
+                <option name="name" value="idl-comdf" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-companysettings" />
+                <option name="name" value="idl-companysettings" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-configcore" />
+                <option name="name" value="idl-configcore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-configservice" />
+                <option name="name" value="idl-configservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-configui" />
+                <option name="name" value="idl-configui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-configutils" />
+                <option name="name" value="idl-configutils" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-coreautoframework" />
+                <option name="name" value="idl-coreautoframework" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cotalentfoundation" />
+                <option name="name" value="idl-cotalentfoundation" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cowhitelist" />
+                <option name="name" value="idl-cowhitelist" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cryptobulk" />
+                <option name="name" value="idl-cryptobulk" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cryptometadata" />
+                <option name="name" value="idl-cryptometadata" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cryptoservice" />
+                <option name="name" value="idl-cryptoservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-cryptotokenizerclient" />
+                <option name="name" value="idl-cryptotokenizerclient" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-customspringcontext" />
+                <option name="name" value="idl-customspringcontext" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-datagenerator" />
+                <option name="name" value="idl-datagenerator" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-datagenerator:idl-datagenerator-service" />
+                <option name="name" value="idl-datagenerator-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-datamodel" />
+                <option name="name" value="idl-datamodel" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-dataresidencyservice" />
+                <option name="name" value="idl-dataresidencyservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-datasync" />
+                <option name="name" value="idl-datasync" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-db" />
+                <option name="name" value="idl-db" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-dbresource" />
+                <option name="name" value="idl-dbresource" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-dbupgrade" />
+                <option name="name" value="idl-dbupgrade" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-deeplex" />
+                <option name="name" value="idl-deeplex" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-deeplink" />
+                <option name="name" value="idl-deeplink" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-dependency" />
+                <option name="name" value="idl-dependency" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-di" />
+                <option name="name" value="idl-di" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-diagnostic" />
+                <option name="name" value="idl-diagnostic" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-digitalsignature" />
+                <option name="name" value="idl-digitalsignature" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-dit" />
+                <option name="name" value="idl-dit" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-dms" />
+                <option name="name" value="idl-dms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-dpcs" />
+                <option name="name" value="idl-dpcs" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-eccontent" />
+                <option name="name" value="idl-eccontent" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-ecmigration" />
+                <option name="name" value="idl-ecmigration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-ecservicelayerodata" />
+                <option name="name" value="idl-ecservicelayerodata" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-eengine" />
+                <option name="name" value="idl-eengine" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-emailengineclient" />
+                <option name="name" value="idl-emailengineclient" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-employeecentralodatav2" />
+                <option name="name" value="idl-employeecentralodatav2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-encrschemamodifier" />
+                <option name="name" value="idl-encrschemamodifier" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-enginex" />
+                <option name="name" value="idl-enginex" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-entitymapping" />
+                <option name="name" value="idl-entitymapping" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-equest" />
+                <option name="name" value="idl-equest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-expressioneval" />
+                <option name="name" value="idl-expressioneval" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-extlib" />
+                <option name="name" value="idl-extlib" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-featuretogglesdk" />
+                <option name="name" value="idl-featuretogglesdk" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-filetransfer" />
+                <option name="name" value="idl-filetransfer" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-flash" />
+                <option name="name" value="idl-flash" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-forge" />
+                <option name="name" value="idl-forge" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-gas" />
+                <option name="name" value="idl-gas" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-geomapping" />
+                <option name="name" value="idl-geomapping" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-giraffe" />
+                <option name="name" value="idl-giraffe" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-globalcontexts" />
+                <option name="name" value="idl-globalcontexts" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-gochangerequest" />
+                <option name="name" value="idl-gochangerequest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-gocompatibilitychangerequest" />
+                <option name="name" value="idl-gocompatibilitychangerequest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-godit" />
+                <option name="name" value="idl-godit" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-godraft" />
+                <option name="name" value="idl-godraft" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-hermes" />
+                <option name="name" value="idl-hermes" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-hermesjms" />
+                <option name="name" value="idl-hermesjms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-hermesopt" />
+                <option name="name" value="idl-hermesopt" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-hermesstore" />
+                <option name="name" value="idl-hermesstore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-hermestest" />
+                <option name="name" value="idl-hermestest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-i18n" />
+                <option name="name" value="idl-i18n" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-i18nui" />
+                <option name="name" value="idl-i18nui" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-instancepair" />
+                <option name="name" value="idl-instancepair" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-instancesync" />
+                <option name="name" value="idl-instancesync" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-instancesync" />
+                <option name="name" value="idl-instancesync" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-instancesync:idl-instancesync:idl-instancesync-api" />
+                <option name="name" value="idl-instancesync-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors:trunk:idl-instancesync:idl-instancesync:idl-instancesync-service" />
+                <option name="name" value="idl-instancesync-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-integrationsecurity" />
+                <option name="name" value="idl-integrationsecurity" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-integrationservicetask" />
+                <option name="name" value="idl-integrationservicetask" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-iris" />
+                <option name="name" value="idl-iris" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-iscore" />
+                <option name="name" value="idl-iscore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-jca" />
+                <option name="name" value="idl-jca" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-jsfcore" />
+                <option name="name" value="idl-jsfcore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-jsunit-test" />
+                <option name="name" value="idl-jsunit-test" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-jsunittools" />
+                <option name="name" value="idl-jsunittools" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-juic" />
+                <option name="name" value="idl-juic" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-kms" />
+                <option name="name" value="idl-kms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-lightning" />
+                <option name="name" value="idl-lightning" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-linkedinintegration" />
+                <option name="name" value="idl-linkedinintegration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-logging" />
+                <option name="name" value="idl-logging" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-maestro" />
+                <option name="name" value="idl-maestro" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-maestro-engine" />
+                <option name="name" value="idl-maestro-engine" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-maestro-pslv4" />
+                <option name="name" value="idl-maestro-pslv4" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-magellan" />
+                <option name="name" value="idl-magellan" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-mdf" />
+                <option name="name" value="idl-mdf" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-mediaserviceclient" />
+                <option name="name" value="idl-mediaserviceclient" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-mercurius" />
+                <option name="name" value="idl-mercurius" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-messagestore" />
+                <option name="name" value="idl-messagestore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-metadataextension" />
+                <option name="name" value="idl-metadataextension" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-monitoringagent" />
+                <option name="name" value="idl-monitoringagent" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-nodejs" />
+                <option name="name" value="idl-nodejs" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-notification" />
+                <option name="name" value="idl-notification" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-oauth" />
+                <option name="name" value="idl-oauth" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-oauth2" />
+                <option name="name" value="idl-oauth2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-objectstorageswift" />
+                <option name="name" value="idl-objectstorageswift" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-odata" />
+                <option name="name" value="idl-odata" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-odata4j-core" />
+                <option name="name" value="idl-odata4j-core" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-odataclient" />
+                <option name="name" value="idl-odataclient" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-odataruleengine" />
+                <option name="name" value="idl-odataruleengine" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-orgchartxml" />
+                <option name="name" value="idl-orgchartxml" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-outbound" />
+                <option name="name" value="idl-outbound" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-pageinfo" />
+                <option name="name" value="idl-pageinfo" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-penguin" />
+                <option name="name" value="idl-penguin" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-perflog" />
+                <option name="name" value="idl-perflog" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-perflogbase" />
+                <option name="name" value="idl-perflogbase" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-permission" />
+                <option name="name" value="idl-permission" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-permissionbean" />
+                <option name="name" value="idl-permissionbean" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-permissionbean:idl-permissionbean-service" />
+                <option name="name" value="idl-permissionbean-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-permissionlegacy" />
+                <option name="name" value="idl-permissionlegacy" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-permissionlegacy:idl-permissionlegacy-service" />
+                <option name="name" value="idl-permissionlegacy-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-platform" />
+                <option name="name" value="idl-platform" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-quantumclient" />
+                <option name="name" value="idl-quantumclient" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-rbp" />
+                <option name="name" value="idl-rbp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-rel" />
+                <option name="name" value="idl-rel" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-remotesca" />
+                <option name="name" value="idl-remotesca" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-remotesca:idl-remotesca-api" />
+                <option name="name" value="idl-remotesca-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-remotesca:idl-remotesca-integration" />
+                <option name="name" value="idl-remotesca-integration" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-remotesca:idl-remotesca-service" />
+                <option name="name" value="idl-remotesca-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-rest" />
+                <option name="name" value="idl-rest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-restapi" />
+                <option name="name" value="idl-restapi" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-restdemo" />
+                <option name="name" value="idl-restdemo" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-resumeparsing" />
+                <option name="name" value="idl-resumeparsing" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-saml" />
+                <option name="name" value="idl-saml" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-saml:idl-saml" />
+                <option name="name" value="idl-saml" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-saml2" />
+                <option name="name" value="idl-saml2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-saml2:idl-saml2" />
+                <option name="name" value="idl-saml2" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sapui5" />
+                <option name="name" value="idl-sapui5" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sapui5alpha" />
+                <option name="name" value="idl-sapui5alpha" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sapui5beta" />
+                <option name="name" value="idl-sapui5beta" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sapui5lite" />
+                <option name="name" value="idl-sapui5lite" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sapui5themingaux" />
+                <option name="name" value="idl-sapui5themingaux" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sapui5vsaas" />
+                <option name="name" value="idl-sapui5vsaas" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sca" />
+                <option name="name" value="idl-sca" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-schedulerservice" />
+                <option name="name" value="idl-schedulerservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-scim" />
+                <option name="name" value="idl-scim" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-search" />
+                <option name="name" value="idl-search" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-search2" />
+                <option name="name" value="idl-search2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sefcore" />
+                <option name="name" value="idl-sefcore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-serialization" />
+                <option name="name" value="idl-serialization" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sessionaffinity" />
+                <option name="name" value="idl-sessionaffinity" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sf-foundation-server" />
+                <option name="name" value="idl-sf-foundation-server" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sf-foundation-server:idl-sf-foundation-server" />
+                <option name="name" value="idl-sf-foundation-server" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sf-foundation-server-dist" />
+                <option name="name" value="idl-sf-foundation-server-dist" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sf-foundation-server-dist:idl-sf-foundation-server-dist" />
+                <option name="name" value="idl-sf-foundation-server-dist" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sfapi-axis" />
+                <option name="name" value="idl-sfapi-axis" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sfedis" />
+                <option name="name" value="idl-sfedis" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sfjames" />
+                <option name="name" value="idl-sfjames" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sfmessages" />
+                <option name="name" value="idl-sfmessages" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sfmessageslang" />
+                <option name="name" value="idl-sfmessageslang" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sfql" />
+                <option name="name" value="idl-sfql" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sftomcat" />
+                <option name="name" value="idl-sftomcat" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sfutil" />
+                <option name="name" value="idl-sfutil" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-sit" />
+                <option name="name" value="idl-sit" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-smrf" />
+                <option name="name" value="idl-smrf" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-solr47" />
+                <option name="name" value="idl-solr47" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-solr47:idl-solr47-runtime" />
+                <option name="name" value="idl-solr47-runtime" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-solr5" />
+                <option name="name" value="idl-solr5" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-solr5runtime" />
+                <option name="name" value="idl-solr5runtime" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-solr7" />
+                <option name="name" value="idl-solr7" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-solr7runtime" />
+                <option name="name" value="idl-solr7runtime" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-strangler" />
+                <option name="name" value="idl-strangler" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-supporttools" />
+                <option name="name" value="idl-supporttools" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-surj" />
+                <option name="name" value="idl-surj" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-systeminfo" />
+                <option name="name" value="idl-systeminfo" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-talentworkflow" />
+                <option name="name" value="idl-talentworkflow" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-tccagent" />
+                <option name="name" value="idl-tccagent" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-tenantrefresh" />
+                <option name="name" value="idl-tenantrefresh" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-tenantrefreshcommons" />
+                <option name="name" value="idl-tenantrefreshcommons" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-tenantrefreshcore" />
+                <option name="name" value="idl-tenantrefreshcore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-tenantservice" />
+                <option name="name" value="idl-tenantservice" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-test" />
+                <option name="name" value="idl-test" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-testmeta" />
+                <option name="name" value="idl-testmeta" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-tiles" />
+                <option name="name" value="idl-tiles" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-uiautoframework" />
+                <option name="name" value="idl-uiautoframework" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-uicommons" />
+                <option name="name" value="idl-uicommons" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-unittest" />
+                <option name="name" value="idl-unittest" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-usercommon" />
+                <option name="name" value="idl-usercommon" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-vault" />
+                <option name="name" value="idl-vault" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-vaultdefinitions" />
+                <option name="name" value="idl-vaultdefinitions" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-virusscan" />
+                <option name="name" value="idl-virusscan" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-voiceintegration" />
+                <option name="name" value="idl-voiceintegration" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-wfcore" />
+                <option name="name" value="idl-wfcore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-wsapi_v1" />
+                <option name="name" value="idl-wsapi_v1" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-wsapicore" />
+                <option name="name" value="idl-wsapicore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-xm" />
+                <option name="name" value="idl-xm" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-ycbuilder" />
+                <option name="name" value="idl-ycbuilder" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-yccore" />
+                <option name="name" value="idl-yccore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-ycserver" />
+                <option name="name" value="idl-ycserver" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="idl-zk" />
+                <option name="name" value="idl-zk" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="mobile-android" />
+                <option name="name" value="mobile-android" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="mprepo" />
+                <option name="name" value="mprepo" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms" />
+                <option name="name" value="pe-lms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-attachment" />
+                <option name="name" value="plateaucommon-attachment" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-blazeds" />
+                <option name="name" value="plateaucommon-blazeds" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-cache-api" />
+                <option name="name" value="plateaucommon-cache-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-cache-centralized-service" />
+                <option name="name" value="plateaucommon-cache-centralized-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-cache-guava-service" />
+                <option name="name" value="plateaucommon-cache-guava-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-cache-redis-service" />
+                <option name="name" value="plateaucommon-cache-redis-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-clustering" />
+                <option name="name" value="plateaucommon-clustering" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-configuration" />
+                <option name="name" value="plateaucommon-configuration" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-core" />
+                <option name="name" value="plateaucommon-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-db" />
+                <option name="name" value="plateaucommon-db" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-dbtools" />
+                <option name="name" value="plateaucommon-dbtools" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-entitymetadata" />
+                <option name="name" value="plateaucommon-entitymetadata" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-fileupload" />
+                <option name="name" value="plateaucommon-fileupload" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-foundation" />
+                <option name="name" value="plateaucommon-foundation" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-hana-support" />
+                <option name="name" value="plateaucommon-hana-support" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-i18n-api" />
+                <option name="name" value="plateaucommon-i18n-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-jms" />
+                <option name="name" value="plateaucommon-jms" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-jobscheduling" />
+                <option name="name" value="plateaucommon-jobscheduling" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-logging" />
+                <option name="name" value="plateaucommon-logging" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-mail" />
+                <option name="name" value="plateaucommon-mail" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-odata" />
+                <option name="name" value="plateaucommon-odata" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-parent" />
+                <option name="name" value="plateaucommon-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-pdf" />
+                <option name="name" value="plateaucommon-pdf" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-perflog" />
+                <option name="name" value="plateaucommon-perflog" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-persistence" />
+                <option name="name" value="plateaucommon-persistence" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-reportservice" />
+                <option name="name" value="plateaucommon-reportservice" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-rest" />
+                <option name="name" value="plateaucommon-rest" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-rtl" />
+                <option name="name" value="plateaucommon-rtl" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-security" />
+                <option name="name" value="plateaucommon-security" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-smart" />
+                <option name="name" value="plateaucommon-smart" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-spring" />
+                <option name="name" value="plateaucommon-spring" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-spring-web" />
+                <option name="name" value="plateaucommon-spring-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-sqlparser" />
+                <option name="name" value="plateaucommon-sqlparser" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-test-tools" />
+                <option name="name" value="plateaucommon-test-tools" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-util" />
+                <option name="name" value="plateaucommon-util" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-virusscan" />
+                <option name="name" value="plateaucommon-virusscan" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-vls-webex-api" />
+                <option name="name" value="plateaucommon-vls-webex-api" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-websecurity" />
+                <option name="name" value="plateaucommon-websecurity" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms:plateaucommon-webtoolkit" />
+                <option name="name" value="plateaucommon-webtoolkit" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms-bsns-mods" />
+                <option name="name" value="pe-lms-bsns-mods" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms-learning-core" />
+                <option name="name" value="pe-lms-learning-core" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms-learning-frameworks" />
+                <option name="name" value="pe-lms-learning-frameworks" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms-modules" />
+                <option name="name" value="pe-lms-modules" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms-plateaucommon2" />
+                <option name="name" value="pe-lms-plateaucommon2" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="pe-lms-standard-modules" />
+                <option name="name" value="pe-lms-standard-modules" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.successfactors.learning.common.java.plateaucommon2:plateaucommon2:plateaucommon-core" />
+                <option name="name" value="plateaucommon-core" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-MDFCore" />
+                <option name="name" value="qray-MDFCore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-MDFService" />
+                <option name="name" value="qray-MDFService" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-PLT-JobScheduler" />
+                <option name="name" value="qray-PLT-JobScheduler" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-PLT-NotificationService" />
+                <option name="name" value="qray-PLT-NotificationService" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-RuleEngine" />
+                <option name="name" value="qray-RuleEngine" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-SEB" />
+                <option name="name" value="qray-SEB" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-Succession" />
+                <option name="name" value="qray-Succession" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-bpe" />
+                <option name="name" value="qray-bpe" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-cdp" />
+                <option name="name" value="qray-cdp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-cpm" />
+                <option name="name" value="qray-cpm" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-datapurge" />
+                <option name="name" value="qray-datapurge" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-diversity" />
+                <option name="name" value="qray-diversity" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-dms" />
+                <option name="name" value="qray-dms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-ecStructuresAdoption" />
+                <option name="name" value="qray-ecStructuresAdoption" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-log" />
+                <option name="name" value="qray-log" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-plt-api" />
+                <option name="name" value="qray-plt-api" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-plt-sp" />
+                <option name="name" value="qray-plt-sp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-pm" />
+                <option name="name" value="qray-pm" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-proxy" />
+                <option name="name" value="qray-proxy" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-qray-libraries" />
+                <option name="name" value="qray-qray-libraries" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-rbp" />
+                <option name="name" value="qray-rbp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-search" />
+                <option name="name" value="qray-search" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-security" />
+                <option name="name" value="qray-security" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-sessionmgmt" />
+                <option name="name" value="qray-sessionmgmt" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-sso" />
+                <option name="name" value="qray-sso" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-suite-gdpr" />
+                <option name="name" value="qray-suite-gdpr" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-suite-onbsimplify" />
+                <option name="name" value="qray-suite-onbsimplify" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-suite-reportingMessageStore" />
+                <option name="name" value="qray-suite-reportingMessageStore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-talent-cal" />
+                <option name="name" value="qray-talent-cal" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-talent-common" />
+                <option name="name" value="qray-talent-common" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-talent-comp" />
+                <option name="name" value="qray-talent-comp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-tft" />
+                <option name="name" value="qray-tft" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-tgm" />
+                <option name="name" value="qray-tgm" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-tomcat" />
+                <option name="name" value="qray-tomcat" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-trvw" />
+                <option name="name" value="qray-trvw" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-user" />
+                <option name="name" value="qray-user" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="qray-vrp" />
+                <option name="name" value="qray-vrp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-contactrh" />
+                <option name="name" value="rp-contactrh" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-cpool" />
+                <option name="name" value="rp-cpool" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="Gentools" />
+                <option name="name" value="rp-gentools" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-import-api" />
+                <option name="name" value="rp-import-api" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="JOBPIPE" />
+                <option name="name" value="rp-job-pipe" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-daas" />
+                <option name="name" value="rp-ml-daas" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-genericdummyapi" />
+                <option name="name" value="rp-ml-genericdummyapi" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-guessrome" />
+                <option name="name" value="rp-ml-guessrome" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-rcmdatastore" />
+                <option name="name" value="rp-ml-rcmdatastore" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartcompany" />
+                <option name="name" value="rp-ml-smartcompany" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartexperience" />
+                <option name="name" value="rp-ml-smartexperience" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartfeedback" />
+                <option name="name" value="rp-ml-smartfeedback" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartgender" />
+                <option name="name" value="rp-ml-smartgender" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="SmartJob" />
+                <option name="name" value="rp-ml-smartjob" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartlabor" />
+                <option name="name" value="rp-ml-smartlabor" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartlocation" />
+                <option name="name" value="rp-ml-smartlocation" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartparagraph" />
+                <option name="name" value="rp-ml-smartparagraph" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartsalary" />
+                <option name="name" value="rp-ml-smartsalary" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-ml-smartskills" />
+                <option name="name" value="rp-ml-smartskills" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="rp-mp-generators" />
+                <option name="name" value="rp-mp-generators" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="MPJOBS" />
+                <option name="name" value="rp-multiposting-jobs" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="STAMP" />
+                <option name="name" value="rp-stamp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="sfsf-optier-usage-analytics" />
+                <option name="name" value="sfsf-optier-usage-analytics" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="sfsf-optier-usage-analytics:common" />
+                <option name="name" value="common" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="sfsf-optier-usage-analytics:analysis" />
+                <option name="name" value="sfsf-optier-usage-analytics-analysis" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="sfsf-optier-usage-analytics:ui" />
+                <option name="name" value="sfsf-optier-usage-analytics-ui" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="sftools" />
+                <option name="name" value="sftools" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="smrf-tools" />
+                <option name="name" value="smrf-tools" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="spring-beans-custom" />
+                <option name="name" value="spring-beans-custom" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="spring-context-custom" />
+                <option name="name" value="spring-context-custom" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules" />
+                <option name="name" value="std-modules" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:admin-client" />
+                <option name="name" value="admin-client" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:admin-service" />
+                <option name="name" value="admin-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:admin-web" />
+                <option name="name" value="admin-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-account-code" />
+                <option name="name" value="connector-account-code" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-admin" />
+                <option name="name" value="connector-admin" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-altjobposition" />
+                <option name="name" value="connector-altjobposition" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-competency" />
+                <option name="name" value="connector-competency" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-curriculum" />
+                <option name="name" value="connector-curriculum" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-domain" />
+                <option name="name" value="connector-domain" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-enrollment" />
+                <option name="name" value="connector-enrollment" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-federal-user" />
+                <option name="name" value="connector-federal-user" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-interface-common" />
+                <option name="name" value="connector-interface-common" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-item" />
+                <option name="name" value="connector-item" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-jobposition" />
+                <option name="name" value="connector-jobposition" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-learninghistory" />
+                <option name="name" value="connector-learninghistory" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-organization" />
+                <option name="name" value="connector-organization" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-organizationowner" />
+                <option name="name" value="connector-organizationowner" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent" />
+                <option name="name" value="connector-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-person" />
+                <option name="name" value="connector-person" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-personids" />
+                <option name="name" value="connector-personids" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-positionnumber" />
+                <option name="name" value="connector-positionnumber" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-scheduleoffering" />
+                <option name="name" value="connector-scheduleoffering" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-sfuser" />
+                <option name="name" value="connector-sfuser" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-skill" />
+                <option name="name" value="connector-skill" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-user" />
+                <option name="name" value="connector-user" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:connector-parent:connector-web" />
+                <option name="name" value="connector-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:eqb-parent:eqb-client" />
+                <option name="name" value="eqb-client" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:eqb-parent:eqb-core" />
+                <option name="name" value="eqb-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:eqb-parent" />
+                <option name="name" value="eqb-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:eqb-parent:eqb-web" />
+                <option name="name" value="eqb-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:eventrule-parent:eventrule-core" />
+                <option name="name" value="eventrule-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:eventrule-parent" />
+                <option name="name" value="eventrule-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:eventrule-parent:eventrule-web" />
+                <option name="name" value="eventrule-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:gamification-parent:gamification-client" />
+                <option name="name" value="gamification-client" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:gamification-parent" />
+                <option name="name" value="gamification-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:gamification-parent:gamification-service" />
+                <option name="name" value="gamification-service" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:gamification-parent:gamification-web" />
+                <option name="name" value="gamification-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:icontent-parent:icontent-core" />
+                <option name="name" value="icontent-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:icontent-parent" />
+                <option name="name" value="icontent-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:icontent-parent:icontent-web" />
+                <option name="name" value="icontent-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:instructor-parent:instructor-core" />
+                <option name="name" value="instructor-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:instructor-parent" />
+                <option name="name" value="instructor-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:instructor-parent:instructor-web" />
+                <option name="name" value="instructor-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:mobile-parent:mobile-client" />
+                <option name="name" value="mobile-client" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:mobile-parent:mobile-core" />
+                <option name="name" value="mobile-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:mobile-parent" />
+                <option name="name" value="mobile-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:mobile-parent:mobile-web" />
+                <option name="name" value="mobile-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:ocn-parent:ocn-core" />
+                <option name="name" value="ocn-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:ocn-parent" />
+                <option name="name" value="ocn-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:ocn-parent:ocn-web" />
+                <option name="name" value="ocn-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:offline-parent:offline-core" />
+                <option name="name" value="offline-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:offline-parent" />
+                <option name="name" value="offline-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:offline-parent:offline-web" />
+                <option name="name" value="offline-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:questionmark-integration-parent:questionmark-integration-core" />
+                <option name="name" value="questionmark-integration-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:questionmark-integration-parent" />
+                <option name="name" value="questionmark-integration-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:questionmark-integration-parent:questionmark-integration-web" />
+                <option name="name" value="questionmark-integration-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:questionmark-integration-parent:questionmark-module" />
+                <option name="name" value="questionmark-module" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:sf-integration-parent:sf-integration-core" />
+                <option name="name" value="sf-integration-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:sf-integration-parent" />
+                <option name="name" value="sf-integration-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:sf-integration-parent:sf-integration-web" />
+                <option name="name" value="sf-integration-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:user-course-home-parent:user-course-home-client" />
+                <option name="name" value="user-course-home-client" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:user-course-home-parent:user-course-home-core" />
+                <option name="name" value="user-course-home-core" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:user-course-home-parent" />
+                <option name="name" value="user-course-home-parent" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="std-modules:user-course-home-parent:user-course-home-web" />
+                <option name="name" value="user-course-home-web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-agency2-app-service" />
+                <option name="name" value="test-agency2-app-service" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="tom-au-V4" />
+                <option name="name" value="tom-au-V4" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="workforce-business-service" />
+                <option name="name" value="workforce-business-service" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

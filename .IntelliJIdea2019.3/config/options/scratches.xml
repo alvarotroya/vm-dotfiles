@@ -1,0 +1,11 @@
+<application>
+  <component name="ScratchFileService">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/CreateTicketController.js" value="JShellLanguage" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/CreateTicketView.xml" value="XML" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json" value="JSON" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" value="JSON" />
+  </component>
+</application>

@@ -1,0 +1,116 @@
+<mvc:View controllerName="servicecenter.controller.CreateTicket" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" xmlns:c="sap.ui.commons" xmlns:form="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" width="100%">
+	<App>
+		<pages>
+			<Page class="pagebg" id="createticket" showHeader="false">
+				<FlexBox class="div" backgroundDesign="Solid" direction="Column" alignItems="Start">
+					<Link class="alink0" press="cancelMessage" textDirection="RTL" text="{i18n>ECT_SERVICECENTER_ASK_HR_NOCAPS}"/>
+					<Label class="labelcreateticket" id="createticketlabel" text="{i18n>ECT_SERVICECENTER_CREATE_TICKET_TITLE}"/>
+				</FlexBox>
+				<l:Grid>
+					<l:content>
+						<Text class="sapUiSmallMarginTop requiredAsterisk" text="{i18n>ECT_SERVICECENTER_RELATED_TO}">
+							<layoutData>
+								<l:GridData span="L12 M12 S12"/>
+							</layoutData>
+						</Text>
+						<ComboBox width="100%" id="serviceDropdown" placeholder="{i18n>ECT_SERVICECENTER_PLACEHOLDER_SERVICE_CATEGORY}"
+							items="{path: 'serviceDropdownJSONModel>/'}" required="true" valueStateText="{i18n>ECT_SERVICECENTER_SERVICE_EMPTY_VALUE_STATE}"
+							change="handleServiceChange" selectionChange="selectionChangeService">
+							<core:Item key="{serviceDropdownJSONModel>ServiceIssueCategoryID}" text="{serviceDropdownJSONModel>Name}"/>
+							<layoutData>
+								<l:GridData span="L3 M4 S12"/>
+							</layoutData>
+						</ComboBox>
+						<Text text="{i18n>ECT_SERVICECENTER_RELATED_TO_INCIDENT}" class="requiredAsterisk">
+							<layoutData>
+								<l:GridData span="L12 M12 S12"/>
+							</layoutData>
+						</Text>
+						<ComboBox width="100%" enabled="false" id="incidentDropdown" placeholder="{i18n>ECT_SERVICECENTER_PLACEHOLDER_INCIDENT_CATEGORY}"
+							items="{ path: 'incidentDropdownJSONModel>/'}" required="true" valueStateText="{i18n>ECT_SERVICECENTER_INCIDENT_EMPTY_VALUE_STATE}"
+							change="handleIncidentChange" selectionChange="selectionChangeIncident">
+							<core:Item key="{incidentDropdownJSONModel>ServiceIssueCategoryID}" text="{incidentDropdownJSONModel>Name}"/>
+							<layoutData>
+								<l:GridData span="L3 M4 S12"/>
+							</layoutData>
+						</ComboBox>
+						<Text text="{i18n>ECT_SERVICECENTER_MAIN_QUERY}" labelFor="odataServiceInput" class="requiredAsterisk">
+							<layoutData>
+								<l:GridData span="L12 M12 S12"/>
+							</layoutData>
+						</Text>
+						<Input id="odataServiceInput" maxLength="250" valueStateText="{i18n>ECT_SERVICECENTER_SUBJECT_EMPTY_VALUE_STATE}" type="text" width="100%"
+							placeholder="{i18n>ECT_SERVICECENTER_PLACEHOLDER_SUBJECT}" required="true" change="handleSubjectChange"
+							liveChange="handleOnLiveChangeSubject">
+							<layoutData>
+								<l:GridData span="L6 M8 S12"/>
+							</layoutData>
+						</Input>
+						<TextArea id="descriptionId" maxLength="20000" width="100%" rows="5" valueStateText="{i18n>ECT_SERVICECENTER_DESCRIPTION_EMPTY_VALUE_STATE}"
+							placeholder="{i18n>ECT_SERVICECENTER_PLACEHOLDER_DESCRIPTION}" required="true" change="handleDescriptionChange"
+							liveChange="handleOnLiveChangeDescription">
+							<layoutData>
+								<l:GridData span="L6 M8 S12" linebreakL="true" linebreakM="true" linebreakS="true"/>
+							</layoutData>
+						</TextArea>
+						<Text text="{i18n>ECT_SERVICECENTER_PRIORITY}" required="true" class="requiredAsterisk sapUiNoMarginBottom">
+							<layoutData>
+								<l:GridData class="sapUiNoMarginBottom" span="L12 M12 S12"/>
+							</layoutData>
+						</Text>
+						<ComboBox valueStateText="{i18n>ECT_SERVICECENTER_PRIORITY_EMPTY_VALUE_STATE}" width="100%" id="priorityDropdown"
+							placeholder="{i18n>ECT_SERVICECENTER_CHOOSE_PRIORITY}" value="" items="{ path: 'priorityDropdownJSONModel>/d/results'}" required="true"
+							change="handlePriorityChange" selectionChange="selectionChangePriority">
+							<core:Item key="{priorityDropdownJSONModel>Code}" text="{priorityDropdownJSONModel>Description}"/>
+							<layoutData>
+								<l:GridData span="L3 M4 S12"/>
+							</layoutData>
+						</ComboBox>
+						<UploadCollection id="UploadCollection"
+							fileType="jpg,jpeg,png,pdf,txt,doc,docx,xls,xlsx,xml,log,rtf,zip,key,ppt,pptx,pps,ppsx,ppy,rar,gif,pic,odt,csv,img,html,mp3,m4a,mp4,m4v,mpg,wav,ogg,wmv,avi,ogv,flv"
+							maximumFilenameLength="70" maximumFileSize="20" sameFilenameAllowed="false" multiple="true" showSeparators="All" change="onChange"
+							fileDeleted="onFileDeleted" filenameLengthExceed="onFilenameLengthExceed" fileRenamed="onFileRenamed" fileSizeExceed="onFileSizeExceed"
+							typeMissmatch="onTypeMissmatch" uploadComplete="onUploadComplete" beforeUploadStarts="onBeforeUploadStarts"
+							uploadTerminated="onUploadTerminated" selectionChange="selectionChangeUpload" items="{path : '/items', templateShareable : 'true'}"
+							mode="SingleSelectMaster">
+							<toolbar>
+								<OverflowToolbar id="myId">
+									<Title id="attachmentTitle"/>
+									<ToolbarSpacer/>
+									<UploadCollectionToolbarPlaceholder></UploadCollectionToolbarPlaceholder>
+								</OverflowToolbar>
+							</toolbar>
+							<items>
+								<UploadCollectionItem documentId="{documentId}" fileName="{fileName}" mimeType="{mimeType}" thumbnailUrl="{thumbnailUrl}" url="{url}"
+									enableEdit="{enableEdit}" enableDelete="{enableDelete}" visibleDelete="{visibleDelete}" visibleEdit="{visibleEdit}"
+									attributes="{path : 'attributes', templateShareable : 'true'}" statuses="{path : 'statuses', templateShareable : 'true'}"
+									selected="{selected}">
+									<attributes>
+										<ObjectAttribute title="{title}" text="{path : 'text', formatter : '.formatAttribute'}" active="{active}"/>
+									</attributes>
+									<statuses>
+										<ObjectStatus title="{title}" text="{text}" state="{state}" icon="{icon}" iconDensityAware="{iconDensityAware}"
+											textDirection="{textDirection}"/>
+									</statuses>
+								</UploadCollectionItem>
+							</items>
+							<layoutData>
+								<l:GridData span="L6 M8 S12" linebreakL="true" linebreakM="true" linebreakS="true"/>
+							</layoutData>
+						</UploadCollection>
+						<BusyDialog id="busyDialog"/>
+						<BusyDialog id="BusyDialogNew" title="{i18n>ECT_SERVICECENTER_PENDING_UPLOAD_HEADER}" text="{i18n>ECT_SERVICECENTER_PENDING_UPLOAD}" showCancelButton="true" cancelButtonText="OK" close="onDialogClosed"/>
+						</l:content>
+				</l:Grid>
+				<footer>
+					<OverflowToolbar class="ecscfooter">
+						<ToolbarSpacer/>
+						<Button text="{i18n>ECT_SERVICECENTER_CANCEL}" press="cancelMessage"/>
+						<Button class="emphasizedButton" type="Emphasized" text="{i18n>ECT_SERVICECENTER_SUBMIT}" press="confirmMessage"></Button>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
