@@ -15,13 +15,13 @@
         </entry>
         <entry key="/data/sfsf/workspace/trunk">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1TIMvm4KkMziYjIn831rGvaUgPh">
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1X6cT6qQLikaVg1oGt7hSEQB7Zu">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-193.6015.22" />
-              <option name="buildTimestamp" value="1578975920212" />
-              <frame x="0" y="-18" width="1272" height="944" />
+              <option name="build" value="IU-193.6015.39" />
+              <option name="buildTimestamp" value="1579579021761" />
+              <frame x="0" y="0" width="1272" height="933" extendedState="6" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1580369304386" />
+              <option name="projectOpenTimestamp" value="1580463664907" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

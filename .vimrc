@@ -76,7 +76,7 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 :set guioptions-=T  "remove toolbar
 :set guioptions-=r  "remove right-hand scroll bar
 :set guioptions-=L  "remove left-hand scroll bar
-:set lines=999 columns=999
+" :set lines=999 columns=999 //too much lines and columns
 
 " ==== CtrlP ====
 let g:ctrlp_show_hidden = 1
@@ -202,6 +202,7 @@ set autochdir
 " Linebreak on 1000 characters
 set lbr
 set tw=1000
+set lines=50
 
 "set ai "Auto indent
 "set si "Smart indent
