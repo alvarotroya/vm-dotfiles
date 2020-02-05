@@ -2,8 +2,8 @@
 #Swaps Capslock and Escape and maps Escape to modifier key Mode_switch when held down
 
 # keyboard layout and options (compose key, caps to escape, kill xserver
-setxkbmap us
-setxkbmap -option "caps:escape, compose:ralt, terminate:ctrl_alt_bksp"
+# setxkbmap us
+# setxkbmap -option "caps:escape, compose:ralt, terminate:ctrl_alt_bksp"
 
 # make capslock hyperkey
 xmodmap -e "keycode 66 = Mode_switch"
@@ -16,14 +16,14 @@ xmodmap -e "keysym k = k K Up"
 xmodmap -e "keysym j = j J Down"
 
 # home, end and pgup pgdown
-xmodmap -e "keysym u = u U Next"
-xmodmap -e "keysym i = i I Prior"
-xmodmap -e "keysym o = o O Home"
-xmodmap -e "keysym p = p P End"
+# xmodmap -e "keysym u = u U Next"
+# xmodmap -e "keysym i = i I Prior"
+# xmodmap -e "keysym o = o O Home"
+# xmodmap -e "keysym p = p P End"
 
 # backspace and delete
-xmodmap -e "keysym n = n N BackSpace"
-xmodmap -e "keysym m = m M Delete"
+# xmodmap -e "keysym n = n N BackSpace"
+# xmodmap -e "keysym m = m M Delete"
 
 # make escape hyperkey (requires xcape)
 xcape -e "Mode_switch=Escape"

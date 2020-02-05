@@ -25,12 +25,12 @@
        mouse into it, also raise the window -->
   </focus>
   <placement>
-    <policy>Smart</policy>
+    <policy>UnderMouse</policy>
     <!-- 'Smart' or 'UnderMouse' -->
     <center>yes</center>
     <!-- whether to place windows in the center of the free area found or
        the top left corner -->
-    <monitor>Mouse</monitor>
+    <monitor>Any</monitor>
     <!-- with Smart placement on a multi-monitor system, try to place new windows
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
        the active window is, 'Primary' - only on the primary monitor -->
@@ -123,9 +123,10 @@
     <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
+      <name/>
+      <name>Terminal</name>
       <name>IntelliJ</name>
-      <name>Terminals</name>
-      <name>Vim</name>
+      <name>Tomcat</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -384,7 +385,7 @@
         <command>lxsession-default terminal</command>
       </action>
     </keybind>
-    <keybind key="W-Enter">
+    <keybind key="W-Return">
       <action name="Execute">
         <command>lxsession-default terminal</command>
       </action>

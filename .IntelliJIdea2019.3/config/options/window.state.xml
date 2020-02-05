@@ -91,10 +91,10 @@
     <size key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.2554.956" width="305" height="208" />
     <size key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.2554.956" width="529" height="419" />
     <size key="SettingsEditor.0.0.2554.956" width="1028" height="837" />
-    <size key="GridCell.Tab.0.left.0.0.2554.956" width="2508" height="239" />
-    <size key="GridCell.Tab.0.center.0.0.2554.956" width="2508" height="239" />
-    <size key="GridCell.Tab.0.right.0.0.2554.956" width="2508" height="239" />
-    <size key="GridCell.Tab.0.bottom.0.0.2554.956" width="2508" height="239" />
+    <size key="GridCell.Tab.0.left.0.0.2554.956" width="1868" height="216" />
+    <size key="GridCell.Tab.0.center.0.0.2554.956" width="1868" height="216" />
+    <size key="GridCell.Tab.0.right.0.0.2554.956" width="1868" height="216" />
+    <size key="GridCell.Tab.0.bottom.0.0.2554.956" width="1868" height="216" />
     <size key="GridCell.Tab.1.left.0.0.2554.956" width="2508" height="239" />
     <size key="GridCell.Tab.1.center.0.0.2554.956" width="2508" height="239" />
     <size key="GridCell.Tab.1.right.0.0.2554.956" width="2508" height="239" />
@@ -121,9 +121,13 @@
     <size key="git4idea.merge.GitPullDialog.0.0.2558.960" width="684" height="440" />
     <size key="MergeDialog.0.0.2558.960" width="2050" height="790" />
     <size key="MultipleFileMergeDialog.0.0.2558.960" width="596" height="574" />
+    <size key="GridCell.Tab.0.left.0.0.1914.956" width="1868" height="216" />
+    <size key="GridCell.Tab.0.center.0.0.1914.956" width="1868" height="216" />
+    <size key="GridCell.Tab.0.right.0.0.1914.956" width="1868" height="216" />
+    <size key="GridCell.Tab.0.bottom.0.0.1914.956" width="1868" height="216" />
   </component>
   <component name="WindowManager">
-    <frame x="0" y="0" width="1272" height="933" extendedState="6" />
+    <frame x="0" y="0" width="949" height="932" extendedState="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -140,9 +144,12 @@
     </layout>
   </component>
   <component name="WindowStateApplicationService">
-    <state x="2152" y="725" width="400" height="213" key="ProcessPopupWindow" timestamp="1579706827564">
-      <screen x="0" y="0" width="2554" height="957" />
+    <state x="1611" y="706" width="301" height="208" key="ProcessPopupWindow" timestamp="1580815720519">
+      <screen x="0" y="0" width="1914" height="932" />
     </state>
+    <state x="1611" y="706" width="301" height="208" key="ProcessPopupWindow/0.0.1914.932" timestamp="1580815720519" />
+    <state x="1612" y="707" width="300" height="208" key="ProcessPopupWindow/0.0.1914.933" timestamp="1580743997708" />
+    <state x="2151" y="707" width="401" height="208" key="ProcessPopupWindow/0.0.2554.933" timestamp="1580803357166" />
     <state x="2152" y="724" width="400" height="212" key="ProcessPopupWindow/0.0.2554.956" timestamp="1579617694415" />
     <state x="2152" y="725" width="400" height="213" key="ProcessPopupWindow/0.0.2554.957" timestamp="1579706827564" />
     <state x="2156" y="727" width="400" height="212" key="ProcessPopupWindow/0.0.2558.960" timestamp="1579505414669" />

@@ -1,7 +1,11 @@
 set showmode
 set clipboard=unnamed
+set hlsearch
+set incsearch
+set smartcase
 set relativenumber
 set number
+set history=10000
 
 " https://youtrack.jetbrains.com/issue/VIM-959
 set ideamarks
@@ -20,28 +24,23 @@ set commentary
 " https://github.com/Valloric/dotfiles/blob/master/intellij/ideavimrc
 " https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 set surround
-let mapleader = "\"
+set easymotion
+let mapleader = " "
 
 " Yank from cursor to end of line, to be consistent with C and D.
 nnoremap Y y$
+" Move to the start and end of line
+nnoremap H ^
+nnoremap L $
 
 " in vim i use Tab to switch buffers
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 
-" similar to my vim Nerd tree mapping
-nnoremap <Leader>n :action ActivateProjectToolWindow<CR>
-
 " misc actions
 nnoremap <Leader>z :action HideAllWindows<CR>
+nnoremap <Leader><Leader>z :action ToggleDistractionFreeMode<CR>
 nnoremap <Leader>x :q<CR>
-
-" Ctrl + F12 in idea.
-map <Leader>s :action FileStructurePopup<CR>
-" Perhaps just use the Idea shortcut Ctrl-Alt-B
-
-" Alt + F7 in idea. 
-map <Leader>f :action FindUsages<CR>
 
 " Alt + Shift + Insert in idea. 
 map <Leader>v :action EditorToggleColumnMode<CR>
@@ -49,57 +48,8 @@ map <Leader>v :action EditorToggleColumnMode<CR>
 " Alt + Insert in idea.
 map <Leader>g :action Generate<CR>
 
-" F12 
-map <Leader>w :action JumpToLastWindow<CR>
-map <Leader>r :action ChooseRunConfiguration<CR>
-
-" Search in idea with vim bindings
-map / :action Find<CR>
-map n :action FindNext<CR>
-map r :action FindPrevious<CR>
-
-" navigation ans search
-nnoremap <Leader>su :action ShowUsages<CR>
-nnoremap <Leader>sU :action FindUsages<CR>
-nnoremap <Leader>si :action GotoImplementation<CR>
-nnoremap <Leader>ss :action GotoSuperMethod<CR>
-nnoremap <Leader>sd :action QuickImplementations<CR>
-" nnoremap <Leader>st :action GotoTypeDeclaration<CR>
-" nnoremap <Leader>sp :action Scala.TypeInfo<CR>:action ExpressionTypeInfo<CR>
-" vnoremap <Leader>sp <Esc>gvhh:<bs><bs><bs><bs><bs>action VimVisualSwapSelections<cr>:action Scala.TypeInfo<CR>:action ExpressionTypeInfo<CR>gv
-" nnoremap <Leader>sq :action Scala.GoToImplicit<CR>
-" vnoremap <Leader>sq <Esc>gvhh:<bs><bs><bs><bs><bs>action VimVisualSwapSelections<cr>:action Scala.GoToImplicit<CR>
-" nnoremap <Leader>sQ :action Scala.ShowImplicitParameters<CR>
-nnoremap <Leader>sb :action ShowNavBar<CR>
-nnoremap <Leader>sn :action SelectIn<CR>
-nnoremap <Leader>se :action ShowErrorDescription<CR>
-
-" ideavim regex are a bit buggy, cannot use regex from vimrc
-nnoremap ]c /\\<trait\>\\\|\\<class\>\\\|\\<object\>\\\|\\<interface\>\\\|\\<enum\><CR>w:nohlsearch<CR>
-nnoremap [c b?\\<trait\>\\\|\\<class\>\\\|\\<object\>\\\|\\<interface\>\\\|\\<enum\><CR>w:nohlsearch<CR>
-
-nnoremap ]d /\\<def\><CR>w:nohlsearch<CR>
-nnoremap [d b?\\<def\><CR>w:nohlsearch<CR>
-
 nnoremap ]e :action GotoNextError<CR>
 nnoremap [e :action GotoPreviousError<CR>
-
-" hierarchy actions
-nnoremap <Leader>hh :action TypeHierarchy<CR>
-nnoremap <Leader>hm :action MethodHierarchy<CR>
-nnoremap <Leader>hc :action CallHierarchy<CR>
-nnoremap <Leader>hd :action ShowUmlDiagramPopup<CR>
-
-" generate actions
-nnoremap <Leader>ge :action GenerateEquals<CR>
-nnoremap <Leader>gg :action GenerateGetter<CR>
-nnoremap <Leader>gs :action GenerateSetter<CR>
-nnoremap <Leader>ga :action GenerateGetterAndSetter<CR>
-nnoremap <Leader>gc :action GenerateConstructor<CR>
-nnoremap <Leader>gt :action Actions.ActionsPlugin.GenerateToString<CR>
-nnoremap <Leader>go :action OverrideMethods<CR>
-nnoremap <Leader>gi :action ImplementMethods<CR>
-nnoremap <Leader>gd :action DelegateMethods<CR>
 
 " bookmarks (a bit similar to vim marks)
 nnoremap <Leader>m :action ToggleBookmarkWithMnemonic<CR>
@@ -107,3 +57,18 @@ nnoremap <Leader>' :action ShowBookmarks<CR>
 nnoremap <Leader>` :action ShowBookmarks<CR>
 nnoremap ]b :action GotoNextBookmark<CR>
 nnoremap [b :action GotoPreviousBookmark<CR>
+
+" enter newlines
+nnoremap <CR> :action EditorEnter<CR>
+
+" unimpaired mappings
+nnoremap [<Space> O<esc>j
+nnoremap ]<Space> o<esc>k
+nnoremap [m :action MethodUp<cr>
+nnoremap ]m :action MethodDown<cr>
+
+" easymotion commands
+map <Leader>l <Plug>(easymotion-fl)
+map <Leader>j <Plug>(easymotion-f)
+map <Leader>k <Plug>(easymotion-F)
+map <Leader>h <Plug>(easymotion-Fl)

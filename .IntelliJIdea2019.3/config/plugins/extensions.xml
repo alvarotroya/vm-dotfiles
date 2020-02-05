@@ -985,6 +985,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.bbx">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="nl.rubensten.texifyidea" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.beam">
       <plugins>
         <option name="myPlugins">
@@ -1121,6 +1134,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="org.jetbrains.idea.grammar" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.bot">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.illuminatedcloud2.intellij" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -2237,6 +2263,19 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="com.illuminatedcloud2.intellij" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.dbx">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="nl.rubensten.texifyidea" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -4252,6 +4291,11 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="com.demandware.studio" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="io.artage.sfcc.salesforce-commerce-cloud" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -9788,6 +9832,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.tikz">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="nl.rubensten.texifyidea" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.timer">
       <plugins>
         <option name="myPlugins">
@@ -10161,6 +10218,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="net.seesharpsoft.intellij.plugins.csv" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tsx">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.soywiz.korge.korge-intellij-plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -10884,6 +10954,32 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.xlf">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.espend.idea.localization" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xliff">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.espend.idea.localization" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.xlsx">
       <plugins>
         <option name="myPlugins">
@@ -11560,6 +11656,45 @@
         </option>
       </plugins>
     </entry>
+    <entry key=".template-lintrc.js">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.emberjs" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key=".xlf.*">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.espend.idea.localization" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key=".xliff.*">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.espend.idea.localization" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="?*constants.txt">
       <plugins>
         <option name="myPlugins">
@@ -11748,6 +11883,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="SnakeCharm" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="biblatex.cfg">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="nl.rubensten.texifyidea" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>

@@ -5,7 +5,7 @@ export DBTYPE=hana_wdf
 export NPROXY_RULE_FILE=nproxy_rule_absence.js
 
 #Start customkeymaps script
-~/bin/customkeymaps
+# ~/bin/customkeymaps
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)

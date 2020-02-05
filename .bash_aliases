@@ -1,3 +1,5 @@
+alias cdas='cd /data/sfsf/workspace/trunk/au-timemanagement/au-timemanagement-sapui5-web'
+alias cda='cd /data/sfsf/workspace/trunk/au-timemanagement'
 alias aliasconfig='vim /home/alvaro-uni/.bash_aliases'
 alias zshconfig='vim .zshrc'
 alias gt='gnome-terminal'
