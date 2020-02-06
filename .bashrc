@@ -3,6 +3,7 @@ export HOST_USER_GID=0
 export TOMCAT_MEM=10G
 export DBTYPE=hana_wdf
 export NPROXY_RULE_FILE=nproxy_rule_absence.js
+export CHROME_BIN=/usr/bin/chromium-browser
 
 #Start customkeymaps script
 # ~/bin/customkeymaps
