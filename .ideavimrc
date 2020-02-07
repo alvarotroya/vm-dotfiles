@@ -66,9 +66,13 @@ nnoremap [<Space> O<esc>j
 nnoremap ]<Space> o<esc>k
 nnoremap [m :action MethodUp<cr>
 nnoremap ]m :action MethodDown<cr>
+" nnoremap [c :action JumpToNextChange<cr>
+" nnoremap ]c :action JumpToLastChange<cr>
 
 " easymotion commands
 map <Leader>l <Plug>(easymotion-fl)
 map <Leader>j <Plug>(easymotion-f)
 map <Leader>k <Plug>(easymotion-F)
 map <Leader>h <Plug>(easymotion-Fl)
+map <Leader>J <Plug>(easymotion-j)
+map <Leader>K <Plug>(easymotion-k)

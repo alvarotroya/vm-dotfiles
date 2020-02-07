@@ -4,6 +4,8 @@ export TOMCAT_MEM=10G
 export DBTYPE=hana_wdf
 export NPROXY_RULE_FILE=nproxy_rule_absence.js
 export CHROME_BIN=/usr/bin/chromium-browser
+export EDITOR=/usr/bin/vim.gnome
+export VISUAL=/usr/bin/vim.gnome
 
 #Start customkeymaps script
 # ~/bin/customkeymaps
