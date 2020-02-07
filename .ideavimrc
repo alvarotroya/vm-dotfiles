@@ -58,14 +58,12 @@ nnoremap <Leader>` :action ShowBookmarks<CR>
 nnoremap ]b :action GotoNextBookmark<CR>
 nnoremap [b :action GotoPreviousBookmark<CR>
 
-" enter newlines
-nnoremap <CR> :action EditorEnter<CR>
+"search with builtin search
+nnoremap / :action Find<cr>
 
 " unimpaired mappings
 nnoremap [<Space> O<esc>j
 nnoremap ]<Space> o<esc>k
-nnoremap [m :action MethodUp<cr>
-nnoremap ]m :action MethodDown<cr>
 " nnoremap [c :action JumpToNextChange<cr>
 " nnoremap ]c :action JumpToLastChange<cr>
 
