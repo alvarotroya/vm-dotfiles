@@ -1,0 +1,133 @@
+lsblk
+sudo fdisk /dev/sda
+sudo fdisk /dev/sda
+lsblk
+lsblk
+sudo su
+sudo apt install yadm
+yadm clone https://github.com/alvarotroya/dotfiles.git
+yadm status
+yadm clone https://github.com/alvarotroya/dotfiles.git/vm-dotfiles
+yadm checkout vm-dotfiles
+cat .bashrc 
+mv .bashrc .bashrc_bak
+yadm checkout vm-dotfiles
+yadm clone https://github.com/alvarotroya/dotfiles.git
+yadm pull 
+ls
+clear
+ls
+ls -a
+git clone
+git clone https://github.com/alvarotroya/dotfiles.git
+ls
+cd dotfiles/
+ls
+ls -a
+clear
+cd
+cd dotfiles/
+sudo apt purge yadm
+mv .bash_aliases .bash_aliases_bak
+mv .bashrc .bashrc_bak
+yadm clone https://github.com/alvarotroya/vm-dotfiles.git
+sudo apt install yadm 
+yadm clone https://github.com/alvarotroya/vm-dotfiles.git
+yadm clone -f https://github.com/alvarotroya/vm-dotfiles.git
+yadm reset --hard origin/master
+./bin/customkeymaps 
+sudo apt install xcape
+./bin/customkeymaps 
+cdc
+LS
+ls
+git clone https://github.wdf.sap.corp/bizx/au-timemanagement.git
+vim ~/.bash_aliases
+CDD
+cdd
+.~/bin/customkeymaps
+~/bin/customkeymaps
+cd
+./bin/customkeymaps 
+cd .IntelliJIdea2019.3/
+ls
+cd config/
+ls
+cd plugins/
+ls
+cdc
+./configureWorkspace 
+cdc
+gradlew tomcatGenerateSfs
+..
+cdc
+cdp
+git clone https://github.wdf.sap.corp/D028031/SFSF_VM_scripts.git ~/rfu_scripts
+~/rfu_scripts/setup.sh
+gradlew deploy
+cdd
+env
+env | grep TOMCAT
+env | grep DB
+bin/run.sh 
+..
+sudo apt install vim-gnome
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+sudo update-alternatives --config x-terminal-emulator
+vim
+cd .vim/bundle/YouCompleteMe/
+`sudo apt install build-essential cmake python3-dev`
+sudo apt install build-essential cmake python3-dev
+python3 install.py --clang-completer
+vim .bashrc
+vim .bash_profile
+sudo ln -s ~/bin/customkeymaps /etc/profile.d/
+cd /etc/profile.d/
+mv customkeymaps customkeymaps.sh
+chmod +x bin/customkeymaps 
+sudo ln -s ~/bin/customkeymaps /etc/profile.d/customkeymaps.sh
+cd && vim .bashrc
+./bin/customkeymaps 
+setkbmap us
+setxkbmap us
+setxkbmap -oprtion "caps:escape, compse:ralt"
+setxkbmap -option "caps:escape, compse:ralt"
+vim bin/customkeymaps 
+cdd
+bin/run.sh 
+docker-compose up tomcat-dev
+cdd
+docker ps
+bin/run.sh 
+vim
+vim .vimrc 
+ifconfig
+mv .IntelliJIdea2019.3/config/ .IntelliJIdea2019.3/config_bak/
+yadm pull
+vim /etc/sysctl.conf 
+sudo vim /etc/sysctl.conf 
+sudo sysctl -p --system
+./bin/customkeymaps 
+vim .ideavimrc 
+./bin/customkeymaps 
+cdas
+npm run lint
+vim package.json 
+npm run lint:myfix
+npm run lint
+npm run lint:fix
+npm run lint:myFix
+npm run lint:myfix
+npm run lint:fix
+cda
+git checkout master
+git pull
+git checkout feature/TIM-10575_OPATestCreationForm 
+git merge
+git merge master
+cd
+npm install --save-dev --save-exact prettier
+cdas
+npm install --save-dev --save-exact prettier
+npm run lint
+npm run lint:fix

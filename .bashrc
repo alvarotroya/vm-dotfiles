@@ -3,7 +3,7 @@ export HOST_USER_GID=0
 export TOMCAT_MEM=10G
 export DBTYPE=hana_wdf
 export NPROXY_RULE_FILE=nproxy_rule_absence.js
-export CHROME_BIN=/usr/bin/chromium-browser
+export CHROME_BIN=/usr/bin/google-chrome-stable
 export EDITOR=/usr/bin/vim.gnome
 export VISUAL=/usr/bin/vim.gnome
 

@@ -1,0 +1,16 @@
+      this._initTimeAccountBalanceModel();
+
+          if (this._oTimeAccountPayoutModel.getServiceMetadata()) {
+            this._onTimeAccountPayoutMetadataLoadFinished();
+          } else {
+            return this._oTimeAccountPayoutModel.attachMetadataLoaded(
+              this._onTimeAccountPayoutMetadataLoadFinished,
+              this
+            );
+          }
+        },
+
+        _onTimeAccountPayoutMetadataLoadFinished: function() {
+          this._initAttachmentSettingsModel();
+          this._initTimeAccountPayoutModel();
+        },

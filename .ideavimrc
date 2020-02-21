@@ -3,12 +3,13 @@ set clipboard=unnamed
 set hlsearch
 set incsearch
 set smartcase
-set relativenumber
-set number
+" set relativenumber
+" set number
 set history=10000
 
 " https://youtrack.jetbrains.com/issue/VIM-959
 set ideamarks
+set idearefactormode=keep
 
 " https://github.com/JetBrains/ideavim/wiki/%60ideajoin%60-examples
 set ideajoin
