@@ -46,6 +46,10 @@ nnoremap <Leader>x :q<CR>
 " Alt + Shift + Insert in idea. 
 map <Leader>v :action EditorToggleColumnMode<CR>
 
+" Alt + Shift + Insert in idea. 
+nnoremap <Leader>\| :action SplitVertically<CR>
+nnoremap <Leader>_ :action SplitHorizontally<CR>
+
 " Alt + Insert in idea.
 map <Leader>g :action Generate<CR>
 
