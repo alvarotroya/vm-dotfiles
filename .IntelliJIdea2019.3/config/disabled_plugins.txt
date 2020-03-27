@@ -1,6 +1,0 @@
-AntSupport
-DevKit
-com.intellij.uiDesigner
-hg4idea
-net.vektah.codeglance
-org.jetbrains.android
