@@ -134,9 +134,6 @@ set -o vi
 #set TERMCMD to x-terminal-emulator (allows ranger to open files in new windows)
 export TERMCMD='x-terminal-emulator'
 
-# added by Anaconda3 installer
-export PATH="/home/alvaro-uni/anaconda3/bin:$PATH"
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 export NVM_DIR="$HOME/.nvm"
