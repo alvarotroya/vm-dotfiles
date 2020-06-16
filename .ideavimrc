@@ -73,6 +73,8 @@ nnoremap ]<Space> o<esc>k
 " nnoremap ]c :action JumpToLastChange<cr>
 
 " easymotion commands
+let g:EasyMotion_smartcase = 1
+map <Leader>f <Plug>(easymotion-bd-f)
 map <Leader>l <Plug>(easymotion-fl)
 map <Leader>j <Plug>(easymotion-f)
 map <Leader>k <Plug>(easymotion-F)

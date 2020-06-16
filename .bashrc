@@ -139,3 +139,9 @@ export TERMCMD='x-terminal-emulator'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export CONSUL_ENABLED=false
+export CONSUL_CLIENT_PORT=8500
+export CONSUL_CLIENT_ADDRESS=localhost
+export HCM_SERVICE_TYPE=cfapp
+export HCM_ENV_TYPE=DEV
+export HCM_ENV_ID=devvm
