@@ -1,6 +1,6 @@
 set showmode
-set clipboard=unnamed
-set hlsearch
+set clipboard+=unnamed
+" set hlsearch
 set incsearch
 set smartcase
 " set relativenumber
@@ -43,8 +43,13 @@ nnoremap <Leader>z :action HideAllWindows<CR>
 nnoremap <Leader><Leader>z :action ToggleDistractionFreeMode<CR>
 nnoremap <Leader>x :q<CR>
 
+" editor commands
+nnoremap <Leader>v :action IntroduceVariable<CR>
+nnoremap <Leader>n :action Inline<CR>
+" nnoremap <Leader>m :action IntroduceVariable<CR>
+
 " Alt + Shift + Insert in idea. 
-map <Leader>v :action EditorToggleColumnMode<CR>
+map <Leader><Leader>v :action EditorToggleColumnMode<CR>
 
 " Alt + Shift + Insert in idea. 
 nnoremap <Leader>\| :action SplitVertically<CR>
@@ -69,8 +74,8 @@ nnoremap / :action Find<cr>
 " unimpaired mappings
 nnoremap [<Space> O<esc>j
 nnoremap ]<Space> o<esc>k
-" nnoremap [c :action JumpToNextChange<cr>
-" nnoremap ]c :action JumpToLastChange<cr>
+nnoremap [c :action JumpToNextChange<cr>
+nnoremap ]c :action JumpToLastChange<cr>
 
 " easymotion commands
 let g:EasyMotion_smartcase = 1
