@@ -1,7 +1,7 @@
 set showmode
 set clipboard+=unnamed
 " set hlsearch
-set incsearch
+" set incsearch
 set smartcase
 " set relativenumber
 " set number
@@ -18,7 +18,7 @@ set ideajoin
 set commentary
 
 " https://github.com/JetBrains/ideavim/wiki/Select-mode
-" set selectmode-=template
+set selectmode-=template
 
 "  Mouseless Driven Development by Hadi Hariri https://www.youtube.com/watch?v=UH6YVv9js3s 
 " https://github.com/JetBrains/ideavim
@@ -27,6 +27,9 @@ set commentary
 set surround
 set easymotion
 let mapleader = " "
+
+" reload ideavimrc
+nnoremap <Leader><Leader>s :source ~/.ideavimrc<CR>
 
 " Yank from cursor to end of line, to be consistent with C and D.
 nnoremap Y y$
@@ -39,17 +42,18 @@ nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 
 " misc actions
-nnoremap <Leader>z :action HideAllWindows<CR>
-nnoremap <Leader><Leader>z :action ToggleDistractionFreeMode<CR>
+nnoremap <Leader>z :action ToggleZenMode<CR>
+" nnoremap <Leader><Leader>z :action ToggleDistractionFreeMode<CR>
 nnoremap <Leader>x :q<CR>
 
-" editor commands
-nnoremap <Leader>v :action IntroduceVariable<CR>
-nnoremap <Leader>n :action Inline<CR>
+" editor refactoring commands
+noremap <Leader>v :action IntroduceVariable<CR>
+noremap <Leader>n :action Inline<CR>
+noremap <Leader>m :action ExtractMethod<CR>
 " nnoremap <Leader>m :action IntroduceVariable<CR>
 
 " Alt + Shift + Insert in idea. 
-map <Leader><Leader>v :action EditorToggleColumnMode<CR>
+" map <Leader>v :action EditorToggleColumnMode<CR>
 
 " Alt + Shift + Insert in idea. 
 nnoremap <Leader>\| :action SplitVertically<CR>
@@ -58,18 +62,26 @@ nnoremap <Leader>_ :action SplitHorizontally<CR>
 " Alt + Insert in idea.
 map <Leader>g :action Generate<CR>
 
-nnoremap ]e :action GotoNextError<CR>
-nnoremap [e :action GotoPreviousError<CR>
+" Navigation
+noremap <C-i> :action Forward<CR>
+noremap <C-o> :action Back<CR>
+
+" Folding
+nnoremap zf :action CollapseRegion<CR>
+nnoremap zd :action ExpandRegion<CR>
 
 " bookmarks (a bit similar to vim marks)
-nnoremap <Leader>m :action ToggleBookmarkWithMnemonic<CR>
-nnoremap <Leader>' :action ShowBookmarks<CR>
-nnoremap <Leader>` :action ShowBookmarks<CR>
+nnoremap m :action ToggleBookmarkWithMnemonic<CR>
+nnoremap ' :action ShowBookmarks<CR>
+nnoremap ` :action ShowBookmarks<CR>
 nnoremap ]b :action GotoNextBookmark<CR>
 nnoremap [b :action GotoPreviousBookmark<CR>
 
 "search with builtin search
 nnoremap / :action Find<cr>
+
+"select all occurrences with builtin method
+noremap * :action SelectAllOccurrences<cr>
 
 " unimpaired mappings
 nnoremap [<Space> O<esc>j
