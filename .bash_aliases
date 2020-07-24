@@ -6,4 +6,5 @@ alias gcm='git checkout master'
 alias gc='git checkout'
 alias gpm='git checkout master && git pull && git checkout -'
 alias cdf='cd $(find / -maxdepth 6 ! -iname ".*" -type d 2> >(grep -v denied >&2) | sort | fzf --header="Change to directory")' 
-
+alias pauseTomcat='docker pause $(docker ps -qa)'
+alias unpauseTomcat='docker unpause $(docker ps -qa)'
