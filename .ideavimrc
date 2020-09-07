@@ -54,9 +54,14 @@ noremap <Leader>m :action ExtractMethod<CR>
 nnoremap <Leader>\| :action SplitVertically<CR>
 nnoremap <Leader>_ :action SplitHorizontally<CR>
 
-" Navigation
+" ===================== 
+"     NAVIGATION
+" =====================
 noremap <C-i> :action Forward<CR>
 noremap <C-o> :action Back<CR>
+nnoremap <C-l> :action NextSplitter<CR>
+nnoremap <C-h> :action PrevSplitter<CR>
+
 
 " Folding
 nnoremap zf :action CollapseRegion<CR>
