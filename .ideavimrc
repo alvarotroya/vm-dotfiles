@@ -24,6 +24,9 @@ set surround
 set easymotion
 let mapleader = " "
 
+"double scape to save
+map <Esc><Esc> :w<CR>
+
 " reload ideavimrc
 nnoremap <Leader><Leader>r :source ~/.ideavimrc<CR>
 
