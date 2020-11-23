@@ -28,7 +28,7 @@ let mapleader = " "
 map <Esc><Esc> :w<CR>
 
 " reload ideavimrc
-nnoremap <Leader><Leader>r :source ~/.ideavimrc<CR>
+nnoremap <Leader>R :source ~/.ideavimrc<CR>
 
 " Yank from cursor to end of line, to be consistent with C and D.
 nnoremap Y y$
@@ -62,6 +62,8 @@ nnoremap <Leader>_ :action SplitHorizontally<CR>
 " =====================
 noremap <C-i> :action Forward<CR>
 noremap <C-o> :action Back<CR>
+nnoremap <C-S-i> :action VcsShowNextChangeMarker<CR>
+nnoremap <C-S-o> :action VcsShowPrevChangeMarker<CR>
 nnoremap <C-l> :action NextSplitter<CR>
 nnoremap <C-h> :action PrevSplitter<CR>
 
