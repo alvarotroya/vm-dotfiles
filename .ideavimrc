@@ -59,18 +59,33 @@ noremap <Leader>r :action RenameElement<CR>
 
 " Alt + Shift + Insert in idea. 
 nnoremap <Leader>\| :action SplitVertically<CR>
-nnoremap <Leader>_ :action SplitHorizontally<CR>
+nnoremap <Leader>- :action SplitHorizontally<CR>
 
 " ===================== 
 "     NAVIGATION
 " =====================
+
+" Navigate split screens
+nnoremap <C-a>h <C-w>h
+nnoremap <C-a>j <C-w>j
+nnoremap <C-a>k <C-w>k
+nnoremap <C-a>l <C-w>l
+inoremap <C-a>h <C-o><C-w>h
+inoremap <C-a>j <C-o><C-w>j
+inoremap <C-a>k <C-o><C-w>k
+inoremap <C-a>l <C-o><C-w>l
+
+" Navigate cursor history
 noremap <C-i> :action Forward<CR>
 noremap <C-o> :action Back<CR>
+noremap <Leader>h :action Back<CR>
+noremap <Leader>l :action Forward<CR>
+
+" Navigate git changes
 nnoremap <C-S-i> :action VcsShowNextChangeMarker<CR>
 nnoremap <C-S-o> :action VcsShowPrevChangeMarker<CR>
-nnoremap <C-l> :action NextSplitter<CR>
-nnoremap <C-h> :action PrevSplitter<CR>
-
+nnoremap <Leader>k :action VcsShowPrevChangeMarker<CR>
+nnoremap <Leader>j :action VcsShowNextChangeMarker<CR>
 
 " Folding
 nnoremap zf :action CollapseRegion<CR>
@@ -91,15 +106,13 @@ noremap * :action SelectAllOccurrences<cr>
 " unimpaired mappings
 nnoremap [<Space> O<esc>j
 nnoremap ]<Space> o<esc>k
-nnoremap [c :action JumpToNextChange<cr>
-nnoremap ]c :action JumpToLastChange<cr>
 
 " easymotion commands
 let g:EasyMotion_smartcase = 1
-map <Leader>f <Plug>(easymotion-bd-f)
-map <Leader>l <Plug>(easymotion-fl)
-map <Leader>j <Plug>(easymotion-f)
-map <Leader>k <Plug>(easymotion-F)
-map <Leader>h <Plug>(easymotion-Fl)
-map <Leader>J <Plug>(easymotion-j)
-map <Leader>K <Plug>(easymotion-k)
+nmap <Leader>f <Plug>(easymotion-bd-f)
+nmap <Leader><Leader>l <Plug>(easymotion-fl)
+nmap <Leader><Leader>j <Plug>(easymotion-f)
+nmap <Leader><Leader>k <Plug>(easymotion-F)
+nmap <Leader><Leader>h <Plug>(easymotion-Fl)
+nmap <Leader><Leader>J <Plug>(easymotion-j)
+nmap <Leader><Leader>K <Plug>(easymotion-k)
