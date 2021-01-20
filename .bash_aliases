@@ -20,7 +20,7 @@ alias pause-all-docker-containers='docker pause $(docker ps -qa)'
 alias unpause-all-docker-containers='docker unpause $(docker ps -qa)'
 
 # Upgrade and migrate
-alias upgrade-and-migrate-tomcat='gw upgradeTomcat -Dargs='"'"'-c attime devMode'"'"' && gw migrateTomcat -Dargs='"'"'-c attime devMode'"'"''
+alias upgrade-and-migrate-tomcat='gw upgradeTomcat -Dargs='"'"'-c attime -devMode'"'"' && gw migrateTomcat -Dargs='"'"'-c attime -devMode'"'"''
 
 # K8s shortcuts
 alias wpods='watch kubectl get pods'
