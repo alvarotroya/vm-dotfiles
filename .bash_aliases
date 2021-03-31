@@ -16,6 +16,7 @@ alias cdac='cd $(find $GRADLE_WORKSPACE/au-absencemanagement -maxdepth 1 ! -inam
 
 # Docker shortcuts
 alias stop-all-docker-containers='docker stop $(docker ps -qa)'
+alias remove-all-docker-containers='docker rm $(docker ps -qa)'
 alias pause-all-docker-containers='docker pause $(docker ps -qa)'
 alias unpause-all-docker-containers='docker unpause $(docker ps -qa)'
 
