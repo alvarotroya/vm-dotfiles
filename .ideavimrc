@@ -39,9 +39,7 @@ nnoremap Y y$
 noremap <Leader>a :action GotoAction<CR>
 
 " misc actions
-nnoremap <Leader>z :action ToggleZenMode<CR>
-" nnoremap <Leader><Leader>z :action ToggleDistractionFreeMode<CR>
-nnoremap <Leader>x :q<CR>
+nnoremap <Leader>zen :action ToggleZenMode<CR>
 
 " ===================== 
 "     REFACTORING
