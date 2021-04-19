@@ -120,7 +120,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>6</number>
+    <number>10</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>Browser</name>
@@ -129,6 +129,10 @@
       <name>Jira</name>
       <name>Github</name>
       <name>Scratch</name>
+      <name>ToDos</name>
+      <name>Postman</name>
+      <name>Teams</name>
+      <name>Slack</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -211,6 +215,26 @@
         <to>6</to>
       </action>
     </keybind>
+    <keybind key="W-7">
+      <action name="GoToDesktop">
+        <to>7</to>
+      </action>
+    </keybind>
+    <keybind key="W-8">
+      <action name="GoToDesktop">
+        <to>8</to>
+      </action>
+    </keybind>
+    <keybind key="W-9">
+      <action name="GoToDesktop">
+        <to>9</to>
+      </action>
+    </keybind>
+    <keybind key="W-0">
+      <action name="GoToDesktop">
+        <to>10</to>
+      </action>
+    </keybind>
     <keybind key="W-S-1">
       <action name="SendToDesktop">
         <to>1</to>
@@ -239,6 +263,26 @@
     <keybind key="W-S-6">
       <action name="SendToDesktop">
         <to>6</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-7">
+      <action name="SendToDesktop">
+        <to>7</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-8">
+      <action name="SendToDesktop">
+        <to>8</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-9">
+      <action name="SendToDesktop">
+        <to>9</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-0">
+      <action name="SendToDesktop">
+        <to>10</to>
       </action>
     </keybind>
     <keybind key="W-d">
