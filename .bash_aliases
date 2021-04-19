@@ -26,3 +26,7 @@ alias upgrade-and-migrate-tomcat='gw upgradeTomcat -Dargs='"'"'-c attime -devMod
 # K8s shortcuts
 alias wpods='watch kubectl get pods'
 alias cfpod='kubectl get pods | awk '"'"'{print $1}'"'"' | grep mybizx-cf'
+
+# Common directories
+alias cdrepos='cd ${HOME}/repos/'
+alias cdvm='cd ${HOME}/repos/vm-dotfiles'
