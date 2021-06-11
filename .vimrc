@@ -5,48 +5,23 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " ==== PLUGINS ====
-"Plugin 'VundleVim/Vundle.vim'
-"Plugin 'vim-scripts/L9'
-"Plugin 'tpope/vim-fugitive'
-"Plugin 'tpope/vim-eunuch'
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-"Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'scrooloose/syntastic'
-"Plugin 'christoomey/vim-conflicted'
-"Plugin 'terryma/vim-multiple-cursors'
-"Plugin 'ctrlpvim/ctrlp.vim'
-"Plugin 'mattn/emmet-vim'
-"Plugin 'honza/vim-snippets'
-"Plugin 'SirVer/ultisnips'
-"Plugin 'ervandew/supertab'
-"Plugin 'sjl/gundo.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
-Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'petRUShka/vim-magma'
-"Plugin 'lervag/vimtex'
-"Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'tpope/vim-unimpaired'
-"Plugin 'brennier/quicktex'
 
 " ==== PLUGIN THEMES ====
 Plugin 'vim-scripts/darktango.vim'
 Plugin 'jonathanfilip/vim-lucius'
 Plugin 'morhetz/gruvbox'
 " ==== END PLUGIN THEMES ====
-
-" ==== PLUGIN SYNTAXES ====
-Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'hdima/python-syntax'
-Plugin 'othree/yajs.vim'
-Plugin 'mitsuhiko/vim-jinja'
-"Plugin 'evanmiller/nginx-vim-syntax'
-" === END PLUGIN SYNTAXES ====
 
 " ==== END PLUGINS ====
 
@@ -90,39 +65,11 @@ let g:NERDTreeWinPos="left"
 let g:NERDTreeDirArrows=0
 map <C-t> :NERDTreeToggle<CR>
 
-" ==== Syntastic ====
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-"set to 1 to enable syntax check on opening
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
-let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python']
-let g:syntastic_yaml_checkers = ['jsyaml']
-let g:syntastic_html_tidy_exec = 'tidy5'
-let g:syntastic_tex_checkers = ['lacheck', 'text/language_check']
-let g:syntastic_cpp_checkers = ['clang_check']
-let g:syntastic_cpp_compiler = "clang++"
-let g:syntastic_cpp_compiler_options = "-Weverything -Wno-c++98-compat -g -std=c++11"
-let g:syntastic_mode_map = {
-    \ "mode": "active",
-    \ "passive_filetypes": ["tex"] }
-
 " ==== Airline ====
 let g:airline_theme='luna'
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#syntastic#enabled = 1
-
-" ==== vimtex ====
-let g:vimtex_version_check = 0
-let g:vimtex_view_method='zathura'
-let g:vimtex_compiler_engine='pdflatex -synctex=1'
-"let g:vimtex_compiler_engine='xelatex -synctex=1 -interaction=nonstopmode'
 
 " ==== Easymotion ====
 let g:EasyMotion_do_mapping = 1
@@ -149,21 +96,8 @@ map <Leader>k <Plug>(easymotion-k)
 map <Leader>h <Plug>(easymotion-linebackward)
 "let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 
-" ==== YouCompleteMe ====
-let g:ycm_show_diagnostics_ui = 0
-let g:ycm_filetype_blacklist = { 'tex': 1 }
-
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
-
-" better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-
 " ==== Window navigation ====
+map <C-a> <C-W>
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
@@ -202,7 +136,6 @@ set autochdir
 " Linebreak on 1000 characters
 set lbr
 set tw=1000
-set lines=50
 
 "set ai "Auto indent
 "set si "Smart indent
