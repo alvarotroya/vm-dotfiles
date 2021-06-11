@@ -8,6 +8,7 @@ alias gpm='git checkout master && git pull && git checkout -'
 alias cda='cd ${GRADLE_WORKSPACE}/au-timemanagement'
 alias cdab='cd ${GRADLE_WORKSPACE}/au-absencemanagement'
 alias cdbs='cd ${GRADLE_WORKSPACE}/build-system'
+alias cdrps='cd ${HOME}/repos'
 
 # Usual submodules in au-absencemanagement (e.g. for OPA tests)
 alias cdas='cd ${GRADLE_WORKSPACE}/au-absencemanagement/au-absencemanagement-sapui5-web'
