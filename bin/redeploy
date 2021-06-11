@@ -1,0 +1,70 @@
+#!/bin/sh
+# Redeploys code changes and restarts tomcat container
+PWD=$pwd
+TIMEOUT=12000
+
+waitForTomcat(){
+start_time=$(date +%s)
+maximum_time=$(($start_time + $TIMEOUT))
+$tomcat_up_command="docker-compose up tomcat-dev"
+$tomcat_service="tomcat-dev"
+
+loudEcho "Waiting for the Tomcat container to be available"
+while true; do
+    secs=$(($(date +%s) - $start_time))
+    run_time=$(printf '%dm:%ds\n' $(($secs % 3600 / 60)) $(($secs % 60)))
+    if [ $secs -ge $maximum_time ]; then
+        echo "Service $tomcat_service not started after $run_time sec; giving up ..."
+        exit 1
+    fi
+
+    if ! pgrep -f "$tomcat_up_command" &>/dev/null; then
+        echo "$tomcat_service terminated. Analyze by executing "
+        echo $tomcat_up_command
+        exit
+    fi
+
+    if docker-compose exec $tomcat_service saas check &>/dev/null; then
+        echo "$tomcat_service: up after $run_time"
+        break
+    else
+        echo "$tomcat_service: down after $run_time"
+    fi
+
+    echo
+    echo "Waiting 30s for service $tomcat_service to start ..."
+    echo
+    sleep 30
+done
+}
+
+verifyTomcat(){
+    loudEcho "Performing verification of Tomcat server"
+    cd $GRADLE_WORKSPACE
+    gw tomcatVerifySfs
+    loudEcho "Tomcat ready! Go to http://localhost:8080/login"
+}
+
+loudEcho(){
+    echo
+    echo "*********************************************************************************************"
+    echo $@
+    echo "*********************************************************************************************"
+    echo
+}
+
+loudEcho "Deploying last changes"
+cd $GRADLE_WORKSPACE
+# gw deploy
+
+loudEcho "Restarting Tomcat container"
+cd $DOCKER_HOME/bizx-docker-dev
+# docker-compose restart tomcat-dev
+
+# Jump back to current directory
+cd $PWD
+
+
+# export docker_dir
+# gnome-terminal --command="$tomcat_up_command"
+
