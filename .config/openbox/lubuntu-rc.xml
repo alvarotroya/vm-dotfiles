@@ -415,6 +415,11 @@
         <command>lxpanelctl menu</command>
       </action>
     </keybind>
+    <keybind key="W-p">
+      <action name="Execute">
+        <command>dmenu_run</command>
+      </action>
+    </keybind>
     <!-- Keybindings to toggle fullscreen -->
     <keybind key="W-f">
       <action name="ToggleFullscreen"/>
@@ -447,11 +452,11 @@
       </action>
     </keybind>
     <!-- Lock the screen on Ctrl + Alt + l-->
-    <keybind key="C-A-l">
-      <action name="Execute">
-        <command>lxsession-default lock</command>
-      </action>
-    </keybind>
+    <!-- <keybind key="C-A-l"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <command>lxsession-default lock</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
     <!-- Keybinding for Volume management -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
