@@ -8,7 +8,6 @@ alias gpm='git checkout master && git pull && git checkout -'
 alias cda='cd ${GRADLE_WORKSPACE}/au-timemanagement'
 alias cdab='cd ${GRADLE_WORKSPACE}/au-absencemanagement'
 alias cdbs='cd ${GRADLE_WORKSPACE}/build-system'
-alias cdrps='cd ${HOME}/repos'
 
 # Usual submodules in au-absencemanagement (e.g. for OPA tests)
 alias cdas='cd ${GRADLE_WORKSPACE}/au-absencemanagement/au-absencemanagement-sapui5-web'
@@ -29,5 +28,5 @@ alias wpods='watch kubectl get pods'
 alias cfpod='kubectl get pods | awk '"'"'{print $1}'"'"' | grep mybizx-cf'
 
 # Common directories
-alias cdrepos='cd ${HOME}/repos/'
-alias cdvm='cd ${HOME}/repos/vm-dotfiles'
+alias cdrps='cd $(find $HOME/repos -maxdepth 1 ! -iname ".*" -type d | sort | fzf --header="Change to repos subdirectory")'
+alias home='cd $(find $HOME -maxdepth 1 ! -iname ".*" \( -type l -o -type d \) | sort | fzf --header="Change to home subdirectory")'
