@@ -30,3 +30,6 @@ alias cfpod='kubectl get pods | awk '"'"'{print $1}'"'"' | grep mybizx-cf'
 # Common directories
 alias cdrps='cd $(find $HOME/repos -maxdepth 1 ! -iname ".*" -type d | sort | fzf --header="Change to repos subdirectory")'
 alias home='cd $(find $HOME -maxdepth 1 ! -iname ".*" \( -type l -o -type d \) | sort | fzf --header="Change to home subdirectory")'
+
+# Commands with default options
+alias xclip='xclip -selection c' # allows to paste from clipboard with <C-v>
