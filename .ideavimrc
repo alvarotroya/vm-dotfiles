@@ -90,6 +90,12 @@ nnoremap <C-S-o> :action VcsShowPrevChangeMarker<CR>
 nnoremap <Leader>gk :action VcsShowPrevChangeMarker<CR>
 nnoremap <Leader>gj :action VcsShowNextChangeMarker<CR>
 
+" Navigate to definition/usages
+nnoremap <Leader>B :action GoToDeclaration<CR>
+nnoremap <Leader>b :action ShowUsages<CR>
+nnoremap gd :action GoToDeclaration<CR>
+nnoremap gD :action ShowUsages<CR>
+
 " Folding
 nnoremap zf :action CollapseRegion<CR>
 nnoremap zd :action ExpandRegion<CR>
