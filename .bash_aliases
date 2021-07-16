@@ -15,9 +15,9 @@ alias cdap='cd ${GRADLE_WORKSPACE}/au-absencemanagement/au-absencemanagement-sap
 alias cdac='cd $(find $GRADLE_WORKSPACE/au-absencemanagement -maxdepth 1 ! -iname ".*" -type d -name "*sap*" | sort | fzf --header="Change to au-absencemanagement subdirectory")'
 
 # Docker shortcuts
-alias stop-all-docker-containers='docker stop $(docker ps -qa)'
+alias stop-all-docker-containers='docker stop $(docker ps -q)'
 alias remove-all-docker-containers='docker rm $(docker ps -qa)'
-alias pause-all-docker-containers='docker pause $(docker ps -qa)'
+alias pause-all-docker-containers='docker pause $(docker ps -q)'
 alias unpause-all-docker-containers='docker unpause $(docker ps -qa)'
 
 # Upgrade and migrate
@@ -28,8 +28,8 @@ alias wpods='watch kubectl get pods'
 alias cfpod='kubectl get pods | awk '"'"'{print $1}'"'"' | grep mybizx-cf'
 
 # Common directories
-alias cdrps='cd $(find $HOME/repos -maxdepth 1 ! -iname ".*" -type d | sort | fzf --header="Change to repos subdirectory")'
-alias home='cd $(find $HOME -maxdepth 1 ! -iname ".*" \( -type l -o -type d \) | sort | fzf --header="Change to home subdirectory")'
+alias cdrps='cd $(find $HOME/repos -maxdepth 3 ! -iname ".*" -type d | sort | fzf --header="Change to repos subdirectory")'
+alias home='cd $(find $HOME -maxdepth 3 ! -iname ".*" \( -type l -o -type d \) | sort | fzf --header="Change to home subdirectory")'
 
 # Commands with default options
 alias xclip='xclip -selection c' # allows to paste from clipboard with <C-v>
